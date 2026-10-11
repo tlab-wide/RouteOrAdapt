@@ -1,0 +1,82 @@
+{
+ "description": "Stage 31: TIES-Merging (Yadav 2024) on 4 per-ODD experts",
+ "eval_seed": 7,
+ "train_seed": 42,
+ "n_eval_scenes": 24,
+ "orthogonality": {
+  "expert_0_1_mean_cos": 0.10793531601496371,
+  "expert_0_2_mean_cos": 0.010697666246379965,
+  "expert_0_3_mean_cos": 0.08655535502973519,
+  "expert_1_2_mean_cos": 0.02091061916829581,
+  "expert_1_3_mean_cos": 0.12383028005624167,
+  "expert_2_3_mean_cos": 0.03319697718953206,
+  "avg_abs_cos_off_diagonal": 0.06495526290973068
+ },
+ "results": {
+  "TIES_density_0.2": {
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 5.834157228469849,
+     "std": 1.4666263560015511,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 35.56007695198059,
+     "std": 60.37957811342586,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 26.13548059463501,
+     "std": 25.870853391683916,
+     "n": 10
+    }
+   },
+   "fleet_mean": 22.509904925028483,
+   "n_skip": 0,
+   "keep_density": 0.2
+  },
+  "TIES_density_0.5": {
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 5.192627429962158,
+     "std": 0.9174120073064089,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 35.05391139984131,
+     "std": 60.80888089011454,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 26.877601194381715,
+     "std": 26.68362384219619,
+     "n": 10
+    }
+   },
+   "fleet_mean": 22.37471334139506,
+   "n_skip": 0,
+   "keep_density": 0.5
+  },
+  "uniform_soup_all4": {
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 6.070155322551727,
+     "std": 2.5222222708694626,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 32.30199484825134,
+     "std": 58.1952365389304,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 28.508224105834962,
+     "std": 23.451616652775122,
+     "n": 10
+    }
+   },
+   "fleet_mean": 22.293458092212678,
+   "n_skip": 0
+  }
+ }
+}

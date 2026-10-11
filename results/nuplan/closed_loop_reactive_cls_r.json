@@ -1,0 +1,56 @@
+{
+ "protocol": "closed_loop_reactive_agents, 397 val14 tokens (all non-Vegas + 100 Vegas), seed42 LoRA merged into EMA base",
+ "base_overall": 0.7678802221710587,
+ "north_s42": {
+  "city": "sg-one-north",
+  "n_pairs": 95,
+  "base": 0.8581292096493193,
+  "adapted": 0.5982420581883818,
+  "delta": -0.2598871514609376,
+  "p": 8.86281326408779e-12,
+  "crashes": 0,
+  "base_no_collision": 0.9894736842105263,
+  "adapted_no_collision": 0.9473684210526315,
+  "base_drivable": 0.968421052631579,
+  "adapted_drivable": 0.7578947368421053
+ },
+ "strip_s42": {
+  "city": "us-nv-las-vegas-strip",
+  "n_pairs": 74,
+  "base": 0.8953825955881777,
+  "adapted": 0.8244686364025123,
+  "delta": -0.06302457188822343,
+  "p": 0.0002836235325958114,
+  "crashes": 89,
+  "base_no_collision": 0.945,
+  "adapted_no_collision": 0.9324324324324325,
+  "base_drivable": 1.0,
+  "adapted_drivable": 0.9864864864864865
+ },
+ "boston_s42": {
+  "city": "us-ma-boston",
+  "n_pairs": 52,
+  "base": 0.8334983493333336,
+  "adapted": 0.4816479391792617,
+  "delta": -0.33688191358562825,
+  "p": 1.0891199053730816e-09,
+  "crashes": 67,
+  "base_no_collision": 0.9264705882352942,
+  "adapted_no_collision": 0.8269230769230769,
+  "base_drivable": 1.0,
+  "adapted_drivable": 0.9807692307692307
+ },
+ "hazelwood_s42": {
+  "city": "us-pa-pittsburgh-hazelwood",
+  "n_pairs": 123,
+  "base": 0.5754479550129888,
+  "adapted": 0.5069430426886937,
+  "delta": -0.043581603544542095,
+  "p": 0.22659054066492001,
+  "crashes": 49,
+  "base_no_collision": 0.7798507462686567,
+  "adapted_no_collision": 0.7682926829268293,
+  "base_drivable": 0.9029850746268657,
+  "adapted_drivable": 0.959349593495935
+ }
+}

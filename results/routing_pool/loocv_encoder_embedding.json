@@ -1,0 +1,34 @@
+{
+ "description": "E9 (rebuttal): LOOCV oracle-expert prediction from the 256-d planner-encoder\nembedding (the representation the KSG/MI analysis used), completing E3 which\nused the 8-d hand-crafted features. Answers 4EkA W2 / Nkac Q6 fully:\nneither hand-crafted nor learned scene representations beat the majority baseline.",
+ "n": 24,
+ "d": 256,
+ "class_counts": {
+  "hongo": 3,
+  "kashiwa": 3,
+  "shalun": 2,
+  "unagoya": 16
+ },
+ "majority_baseline": 0.6666666666666666,
+ "results": {
+  "logistic_L2": {
+   "loocv_acc": 0.5,
+   "perm_p": 0.75,
+   "null_mean": 0.5277083333333333
+  },
+  "1NN": {
+   "loocv_acc": 0.5416666666666666,
+   "perm_p": 0.295,
+   "null_mean": 0.4516666666666667
+  },
+  "3NN": {
+   "loocv_acc": 0.5,
+   "perm_p": 0.605,
+   "null_mean": 0.496875
+  },
+  "rbf_SVM": {
+   "loocv_acc": 0.6666666666666666,
+   "perm_p": 0.975,
+   "null_mean": 0.66625
+  }
+ }
+}

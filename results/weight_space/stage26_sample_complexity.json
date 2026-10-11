@@ -1,0 +1,308 @@
+{
+ "description": "Stage 26: joint-replay sample-complexity sweep over n_aichi",
+ "sweep_n_aichi": [
+  5,
+  10,
+  20,
+  40,
+  80
+ ],
+ "n_opt_steps": 500,
+ "n_prod_per_odd": 50,
+ "eval_seed": 7,
+ "train_seed": 42,
+ "pre_aichi": {
+  "aichi_hub_v2": {
+   "mean": 14.261098861694336,
+   "std": 4.133954540642014,
+   "n": 4
+  },
+  "ishio_dai": {
+   "mean": 6.654157018661499,
+   "std": 2.4877234527914798,
+   "n": 10
+  },
+  "morikoro": {
+   "mean": 31.53598976135254,
+   "std": 22.80179881111296,
+   "n": 10
+  }
+ },
+ "pre_prod": {
+  "hongo": {
+   "n": 10,
+   "progress_mean": 179.33851470947266,
+   "route_dev_mean": 10.438695001602174
+  },
+  "kashiwa": {
+   "n": 10,
+   "progress_mean": 190.8059295654297,
+   "route_dev_mean": 14.082366037368775
+  },
+  "shalun": {
+   "n": 10,
+   "progress_mean": 217.24073638916016,
+   "route_dev_mean": 0.0
+  },
+  "unagoya": {
+   "n": 10,
+   "progress_mean": 186.18948822021486,
+   "route_dev_mean": 16.102416706085204
+  }
+ },
+ "pre_fleet_mean": 17.483748547236125,
+ "pre_sum_route_dev": 40.62347774505615,
+ "pre_sum_progress": 773.5746688842773,
+ "sweep": [
+  {
+   "n_aichi": 5,
+   "post_aichi": {
+    "aichi_hub_v2": {
+     "mean": 3.1974305510520935,
+     "std": 1.2935694061989669,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 6.470321249961853,
+     "std": 4.154020438114461,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 10.609580421447754,
+     "std": 5.761384607881963,
+     "n": 10
+    }
+   },
+   "post_fleet_mean": 6.759110740820567,
+   "post_prod": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 186.28832092285157,
+     "route_dev_mean": 11.687232255935669
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 201.30533752441406,
+     "route_dev_mean": 16.57407522201538
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 214.01766052246094,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 197.8261245727539,
+     "route_dev_mean": 17.358775424957276
+    }
+   },
+   "post_sum_route_dev": 45.62008290290832,
+   "post_sum_progress": 799.4374435424804,
+   "delta_fleet": -10.724637806415558,
+   "delta_sum_route_dev": 4.996605157852173,
+   "delta_sum_progress": 25.86277465820308,
+   "final_reward": 407.0362724399567,
+   "training_minutes": 4.511182185014089
+  },
+  {
+   "n_aichi": 10,
+   "post_aichi": {
+    "aichi_hub_v2": {
+     "mean": 5.2279510498046875,
+     "std": 2.114840912741528,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 3.1431276559829713,
+     "std": 2.344131243551213,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 14.255242085456848,
+     "std": 12.652979398362323,
+     "n": 10
+    }
+   },
+   "post_fleet_mean": 7.542106930414835,
+   "post_prod": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 178.10477600097656,
+     "route_dev_mean": 10.32307333946228
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 196.36360931396484,
+     "route_dev_mean": 14.786300897598267
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 209.15865478515624,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 193.23483581542968,
+     "route_dev_mean": 15.188700485229493
+    }
+   },
+   "post_sum_route_dev": 40.29807472229004,
+   "post_sum_progress": 776.8618759155274,
+   "delta_fleet": -9.94164161682129,
+   "delta_sum_route_dev": -0.32540302276611044,
+   "delta_sum_progress": 3.287207031250091,
+   "final_reward": 410.4536779499054,
+   "training_minutes": 4.494625679651896
+  },
+  {
+   "n_aichi": 20,
+   "post_aichi": {
+    "aichi_hub_v2": {
+     "mean": 3.847910165786743,
+     "std": 0.9961915633996737,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 3.6626060247421264,
+     "std": 2.7782261176488605,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 9.00879967212677,
+     "std": 5.7783675477148035,
+     "n": 10
+    }
+   },
+   "post_fleet_mean": 5.506438620885213,
+   "post_prod": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 176.7492416381836,
+     "route_dev_mean": 10.906349158287048
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 201.4541046142578,
+     "route_dev_mean": 15.875956439971924
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 220.6053009033203,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 196.13991088867186,
+     "route_dev_mean": 16.2717227935791
+    }
+   },
+   "post_sum_route_dev": 43.054028391838074,
+   "post_sum_progress": 794.9485580444336,
+   "delta_fleet": -11.977309926350912,
+   "delta_sum_route_dev": 2.4305506467819242,
+   "delta_sum_progress": 21.373889160156295,
+   "final_reward": 411.2035225391388,
+   "training_minutes": 4.465069838364919
+  },
+  {
+   "n_aichi": 40,
+   "post_aichi": {
+    "aichi_hub_v2": {
+     "mean": 2.5796635150909424,
+     "std": 0.19791179589290164,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 4.041396164894104,
+     "std": 3.1620292101350613,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 8.688800954818726,
+     "std": 5.505093913567135,
+     "n": 10
+    }
+   },
+   "post_fleet_mean": 5.103286878267924,
+   "post_prod": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 180.32658843994142,
+     "route_dev_mean": 10.274432754516601
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 198.65142517089845,
+     "route_dev_mean": 15.351803398132324
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 208.15611114501954,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 191.13398284912108,
+     "route_dev_mean": 15.535847282409668
+    }
+   },
+   "post_sum_route_dev": 41.16208343505859,
+   "post_sum_progress": 778.2681076049805,
+   "delta_fleet": -12.380461668968202,
+   "delta_sum_route_dev": 0.5386056900024414,
+   "delta_sum_progress": 4.6934387207031705,
+   "final_reward": 415.7125281572342,
+   "training_minutes": 4.382128115495046
+  },
+  {
+   "n_aichi": 80,
+   "post_aichi": {
+    "aichi_hub_v2": {
+     "mean": 3.146797001361847,
+     "std": 0.5735793008961725,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 3.5958311557769775,
+     "std": 2.334849535093707,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 6.5845304250717165,
+     "std": 3.359403479172228,
+     "n": 10
+    }
+   },
+   "post_fleet_mean": 4.44238619407018,
+   "post_prod": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 176.88460540771484,
+     "route_dev_mean": 10.751096630096436
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 196.89700622558593,
+     "route_dev_mean": 15.051594924926757
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 207.61998748779297,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 191.61739959716797,
+     "route_dev_mean": 15.052088165283203
+    }
+   },
+   "post_sum_route_dev": 40.8547797203064,
+   "post_sum_progress": 773.0189987182617,
+   "delta_fleet": -13.041362353165944,
+   "delta_sum_route_dev": 0.23130197525024698,
+   "delta_sum_progress": -0.5556701660156023,
+   "final_reward": 402.3111603450775,
+   "training_minutes": 4.265079935391744
+  }
+ ]
+}

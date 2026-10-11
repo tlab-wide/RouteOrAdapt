@@ -1,0 +1,613 @@
+{
+ "description": "nuPlan 4x4 LOO transfer matrix × 3 seeds",
+ "cities": [
+  "us-ma-boston",
+  "us-pa-pittsburgh-hazelwood",
+  "us-nv-las-vegas-strip",
+  "sg-one-north"
+ ],
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "eval_per_city": 50,
+ "base": {
+  "us-ma-boston": {
+   "n": 50,
+   "mean": 2.1688383914902807,
+   "std": 6.743253778898116
+  },
+  "us-pa-pittsburgh-hazelwood": {
+   "n": 50,
+   "mean": 4.5106142392475155,
+   "std": 8.900597455732616
+  },
+  "us-nv-las-vegas-strip": {
+   "n": 50,
+   "mean": 1.8622221526969225,
+   "std": 4.064942845263515
+  },
+  "sg-one-north": {
+   "n": 50,
+   "mean": 8.638790656402707,
+   "std": 10.213880180852703
+  }
+ },
+ "per_run": {
+  "us-ma-boston": [
+   {
+    "seed": 42,
+    "train_cities": [
+     "us-pa-pittsburgh-hazelwood",
+     "us-nv-las-vegas-strip",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.8116432493925094,
+      "std": 4.3697249722339
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.4166276836395264,
+      "std": 6.111758341558358
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.4749495530128478,
+      "std": 2.426288660749031
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 5.44144867002964,
+      "std": 6.5136727406398975
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_boston_seed42.pth",
+    "final_loss": 3.2789750428497793,
+    "n_skips": 0
+   },
+   {
+    "seed": 43,
+    "train_cities": [
+     "us-pa-pittsburgh-hazelwood",
+     "us-nv-las-vegas-strip",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.5424015867710112,
+      "std": 3.948527498523632
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.0651193183660506,
+      "std": 6.018646025065025
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.151008143723011,
+      "std": 2.1530817391809114
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 4.857650329470634,
+      "std": 5.990216192038632
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_boston_seed43.pth",
+    "final_loss": 3.593725339472294,
+    "n_skips": 0
+   },
+   {
+    "seed": 44,
+    "train_cities": [
+     "us-pa-pittsburgh-hazelwood",
+     "us-nv-las-vegas-strip",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.5306081670522689,
+      "std": 4.582788243783153
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 2.9683612710237504,
+      "std": 6.251643252842445
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.1125761026144028,
+      "std": 2.2831966879799954
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 5.001274815797806,
+      "std": 6.323586812041794
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_boston_seed44.pth",
+    "final_loss": 3.125061934813857,
+    "n_skips": 0
+   }
+  ],
+  "us-pa-pittsburgh-hazelwood": [
+   {
+    "seed": 42,
+    "train_cities": [
+     "us-ma-boston",
+     "us-nv-las-vegas-strip",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.8774346134066582,
+      "std": 4.7013326119108765
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.7380040031671524,
+      "std": 6.475920191072671
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.6320805889368057,
+      "std": 2.854940576154895
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 6.205870031416416,
+      "std": 7.360753378175841
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_hazelwood_seed42.pth",
+    "final_loss": 3.0464786273241042,
+    "n_skips": 0
+   },
+   {
+    "seed": 43,
+    "train_cities": [
+     "us-ma-boston",
+     "us-nv-las-vegas-strip",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.7781695926189423,
+      "std": 4.467706297223072
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.464234835207462,
+      "std": 6.534511334041042
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.3827423709630966,
+      "std": 2.5030898460019335
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 5.721397786140442,
+      "std": 6.638100382372619
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_hazelwood_seed43.pth",
+    "final_loss": 3.232464252859354,
+    "n_skips": 0
+   },
+   {
+    "seed": 44,
+    "train_cities": [
+     "us-ma-boston",
+     "us-nv-las-vegas-strip",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.4796033738553525,
+      "std": 4.317431583714222
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.002534282505512,
+      "std": 6.195841036249688
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.0857677036523818,
+      "std": 2.241397868344406
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 4.892461677789688,
+      "std": 6.166361508257974
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_hazelwood_seed44.pth",
+    "final_loss": 2.897299545407295,
+    "n_skips": 0
+   }
+  ],
+  "us-nv-las-vegas-strip": [
+   {
+    "seed": 42,
+    "train_cities": [
+     "us-ma-boston",
+     "us-pa-pittsburgh-hazelwood",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.8775835996866226,
+      "std": 4.718397413616828
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.48786337018013,
+      "std": 6.554157400192614
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.5226600128412247,
+      "std": 2.5844614709974545
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 5.961168383955956,
+      "std": 7.0316570760729356
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_strip_seed42.pth",
+    "final_loss": 3.2421044012904168,
+    "n_skips": 0
+   },
+   {
+    "seed": 43,
+    "train_cities": [
+     "us-ma-boston",
+     "us-pa-pittsburgh-hazelwood",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.7326333051919938,
+      "std": 4.097001787762447
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.2674434959888456,
+      "std": 6.172906029205524
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.3330805402994157,
+      "std": 2.159671531728203
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 5.230822875499725,
+      "std": 6.16042909830968
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_strip_seed43.pth",
+    "final_loss": 3.400730866342783,
+    "n_skips": 0
+   },
+   {
+    "seed": 44,
+    "train_cities": [
+     "us-ma-boston",
+     "us-pa-pittsburgh-hazelwood",
+     "sg-one-north"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.5216045460104943,
+      "std": 4.33905552451149
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.05867909938097,
+      "std": 6.127858883254912
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.1564958876371383,
+      "std": 2.376793487155163
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 5.115547004044056,
+      "std": 6.30201994603089
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_strip_seed44.pth",
+    "final_loss": 3.306189680993557,
+    "n_skips": 0
+   }
+  ],
+  "sg-one-north": [
+   {
+    "seed": 42,
+    "train_cities": [
+     "us-ma-boston",
+     "us-pa-pittsburgh-hazelwood",
+     "us-nv-las-vegas-strip"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 2.0069218027591704,
+      "std": 4.801203095797057
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.9909397077560427,
+      "std": 6.778997526185494
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.7337964290380479,
+      "std": 2.8757900260770684
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 6.468471571803093,
+      "std": 7.5093307522681165
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_north_seed42.pth",
+    "final_loss": 3.3206343713402746,
+    "n_skips": 0
+   },
+   {
+    "seed": 43,
+    "train_cities": [
+     "us-ma-boston",
+     "us-pa-pittsburgh-hazelwood",
+     "us-nv-las-vegas-strip"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.5667380732297898,
+      "std": 3.8527520518045044
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.256271617412567,
+      "std": 6.146746527468683
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.2496467173099517,
+      "std": 2.251134096571511
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 4.961403984427452,
+      "std": 6.011689635246551
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_north_seed43.pth",
+    "final_loss": 3.3688720804452896,
+    "n_skips": 0
+   },
+   {
+    "seed": 44,
+    "train_cities": [
+     "us-ma-boston",
+     "us-pa-pittsburgh-hazelwood",
+     "us-nv-las-vegas-strip"
+    ],
+    "eval": {
+     "us-ma-boston": {
+      "n": 50,
+      "mean": 1.5644276663661003,
+      "std": 4.442627613468524
+     },
+     "us-pa-pittsburgh-hazelwood": {
+      "n": 50,
+      "mean": 3.215646567642689,
+      "std": 6.386867502457322
+     },
+     "us-nv-las-vegas-strip": {
+      "n": 50,
+      "mean": 1.2727367785573005,
+      "std": 2.470386389199877
+     },
+     "sg-one-north": {
+      "n": 50,
+      "mean": 5.372368404269219,
+      "std": 6.639727947634238
+     }
+    },
+    "ckpt": "nuplan_4x4_holdout_north_seed44.pth",
+    "final_loss": 3.2362389898300172,
+    "n_skips": 0
+   }
+  ]
+ },
+ "cross_seed": {
+  "us-ma-boston": {
+   "us-ma-boston": {
+    "mean": 1.6282176677385964,
+    "std": 0.15896062151040052,
+    "n_seeds": 3,
+    "per_seed": [
+     1.8116432493925094,
+     1.5424015867710112,
+     1.5306081670522689
+    ]
+   },
+   "us-pa-pittsburgh-hazelwood": {
+    "mean": 3.1500360910097758,
+    "std": 0.2358894611402211,
+    "n_seeds": 3,
+    "per_seed": [
+     3.4166276836395264,
+     3.0651193183660506,
+     2.9683612710237504
+    ]
+   },
+   "us-nv-las-vegas-strip": {
+    "mean": 1.246177933116754,
+    "std": 0.19905174201286358,
+    "n_seeds": 3,
+    "per_seed": [
+     1.4749495530128478,
+     1.151008143723011,
+     1.1125761026144028
+    ]
+   },
+   "sg-one-north": {
+    "mean": 5.10012460509936,
+    "std": 0.30419333694803946,
+    "n_seeds": 3,
+    "per_seed": [
+     5.44144867002964,
+     4.857650329470634,
+     5.001274815797806
+    ]
+   }
+  },
+  "us-pa-pittsburgh-hazelwood": {
+   "us-ma-boston": {
+    "mean": 1.7117358599603179,
+    "std": 0.20706883980200957,
+    "n_seeds": 3,
+    "per_seed": [
+     1.8774346134066582,
+     1.7781695926189423,
+     1.4796033738553525
+    ]
+   },
+   "us-pa-pittsburgh-hazelwood": {
+    "mean": 3.4015910402933756,
+    "std": 0.37171509423677757,
+    "n_seeds": 3,
+    "per_seed": [
+     3.7380040031671524,
+     3.464234835207462,
+     3.002534282505512
+    ]
+   },
+   "us-nv-las-vegas-strip": {
+    "mean": 1.366863554517428,
+    "std": 0.2735023670203504,
+    "n_seeds": 3,
+    "per_seed": [
+     1.6320805889368057,
+     1.3827423709630966,
+     1.0857677036523818
+    ]
+   },
+   "sg-one-north": {
+    "mean": 5.606576498448849,
+    "std": 0.6641899742727864,
+    "n_seeds": 3,
+    "per_seed": [
+     6.205870031416416,
+     5.721397786140442,
+     4.892461677789688
+    ]
+   }
+  },
+  "us-nv-las-vegas-strip": {
+   "us-ma-boston": {
+    "mean": 1.7106071502963702,
+    "std": 0.1790087575752998,
+    "n_seeds": 3,
+    "per_seed": [
+     1.8775835996866226,
+     1.7326333051919938,
+     1.5216045460104943
+    ]
+   },
+   "us-pa-pittsburgh-hazelwood": {
+    "mean": 3.2713286551833156,
+    "std": 0.21461851136802365,
+    "n_seeds": 3,
+    "per_seed": [
+     3.48786337018013,
+     3.2674434959888456,
+     3.05867909938097
+    ]
+   },
+   "us-nv-las-vegas-strip": {
+    "mean": 1.3374121469259261,
+    "std": 0.18312048972901307,
+    "n_seeds": 3,
+    "per_seed": [
+     1.5226600128412247,
+     1.3330805402994157,
+     1.1564958876371383
+    ]
+   },
+   "sg-one-north": {
+    "mean": 5.435846087833245,
+    "std": 0.45857907468362885,
+    "n_seeds": 3,
+    "per_seed": [
+     5.961168383955956,
+     5.230822875499725,
+     5.115547004044056
+    ]
+   }
+  },
+  "sg-one-north": {
+   "us-ma-boston": {
+    "mean": 1.712695847451687,
+    "std": 0.2548097703727625,
+    "n_seeds": 3,
+    "per_seed": [
+     2.0069218027591704,
+     1.5667380732297898,
+     1.5644276663661003
+    ]
+   },
+   "us-pa-pittsburgh-hazelwood": {
+    "mean": 3.4876192976037665,
+    "std": 0.43636128967186477,
+    "n_seeds": 3,
+    "per_seed": [
+     3.9909397077560427,
+     3.256271617412567,
+     3.215646567642689
+    ]
+   },
+   "us-nv-las-vegas-strip": {
+    "mean": 1.4187266416351,
+    "std": 0.2731025740133286,
+    "n_seeds": 3,
+    "per_seed": [
+     1.7337964290380479,
+     1.2496467173099517,
+     1.2727367785573005
+    ]
+   },
+   "sg-one-north": {
+    "mean": 5.600747986833255,
+    "std": 0.7790578306702597,
+    "n_seeds": 3,
+    "per_seed": [
+     6.468471571803093,
+     4.961403984427452,
+     5.372368404269219
+    ]
+   }
+  }
+ }
+}

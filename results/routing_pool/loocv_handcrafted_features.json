@@ -1,0 +1,43 @@
+{
+ "description": "E3 (rebuttal): replace the flawed Fano/summed-MI argument with a direct,\nassumption-free test — leave-one-out cross-validated classifiers predicting the\nper-scene oracle expert (4-way) from scene features, on the 24 Pool-A scenes.\n\nIf LOOCV accuracy is at/below the majority-class baseline, scene features carry\nno usable routing signal — the clean replacement for the KSG/Fano analysis.\nAnswers 4EkA W2 and Nkac Q6.\n",
+ "n": 24,
+ "d": 8,
+ "class_counts": {
+  "hongo": 3,
+  "kashiwa": 3,
+  "shalun": 2,
+  "unagoya": 16
+ },
+ "chance_uniform": 0.25,
+ "majority_baseline": 0.6666666666666666,
+ "results": {
+  "logistic_L2": {
+   "loocv_acc": 0.625,
+   "n_correct": 15,
+   "perm_p": 0.412,
+   "null_mean": 0.5959166666666668,
+   "null_p95": 0.6666666666666666
+  },
+  "1NN": {
+   "loocv_acc": 0.2916666666666667,
+   "n_correct": 7,
+   "perm_p": 0.984,
+   "null_mean": 0.4693333333333333,
+   "null_p95": 0.625
+  },
+  "3NN": {
+   "loocv_acc": 0.4583333333333333,
+   "n_correct": 11,
+   "perm_p": 0.794,
+   "null_mean": 0.5105833333333334,
+   "null_p95": 0.625
+  },
+  "rbf_SVM": {
+   "loocv_acc": 0.6666666666666666,
+   "n_correct": 16,
+   "perm_p": 0.8,
+   "null_mean": 0.6579166666666666,
+   "null_p95": 0.6666666666666666
+  }
+ }
+}

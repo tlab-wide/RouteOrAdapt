@@ -1,0 +1,33 @@
+{
+ "description": "Stage 14 v2: GeoFlex distillation with disjoint train (seed=42) / eval (seed=7) Aichi splits",
+ "n_train_scenes": 60,
+ "n_eval_scenes": 24,
+ "tau_km": 200.0,
+ "n_opt_steps": 300,
+ "train_seed": 42,
+ "eval_seed": 7,
+ "n_eval_skips": 0,
+ "eval": {
+  "aichi_hub_v2": {
+   "n": 4,
+   "max_lat_mean": 18.63210654258728,
+   "max_lat_std": 6.187222324778278,
+   "fwd_progress_mean": 156.8132095336914,
+   "fwd_progress_std": 1.4162237013109387
+  },
+  "ishio_dai": {
+   "n": 10,
+   "max_lat_mean": 19.318515968322753,
+   "max_lat_std": 30.526004461418246,
+   "fwd_progress_mean": 149.58269424438475,
+   "fwd_progress_std": 39.207414976541095
+  },
+  "morikoro": {
+   "n": 10,
+   "max_lat_mean": 37.82932977676391,
+   "max_lat_std": 20.6895788046704,
+   "fwd_progress_mean": 151.01543807983398,
+   "fwd_progress_std": 11.772710860239984
+  }
+ }
+}

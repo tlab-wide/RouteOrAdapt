@@ -1,0 +1,115 @@
+{
+ "description": "E13 (rebuttal, R1-W3): safety/comfort metrics for the matched baselines.\nRe-evaluates the saved sp80 checkpoints (target_only, L2-SP, ft_best_expert,\njoint_replay frng; seeds 42-44, each on its own tuning-eval slice) reporting\ncorridor-exit, jerk p95, lateral-acc p95, and forward progress alongside\nmax-lat — answers whether L2-SP's max-lat win survives safety metrics.",
+ "results": {
+  "target_only": {
+   "corridor_exit_m": {
+    "mean": 2.3927576144536338,
+    "std": 4.464551542479591
+   },
+   "jerk_p95": {
+    "mean": 1497.6753022511812,
+    "std": 316.7484349552516
+   },
+   "lat_acc_p95": {
+    "mean": 55.91841193139544,
+    "std": 13.592862150730674
+   },
+   "max_lat": {
+    "mean": 5.391462008158365,
+    "std": 4.465201637606601
+   },
+   "fwd_progress": {
+    "mean": 199.93827986717224,
+    "std": 8.119726364231234
+   }
+  },
+  "l2sp": {
+   "corridor_exit_m": {
+    "mean": 1.1199114732444286,
+    "std": 0.7937932276751402
+   },
+   "jerk_p95": {
+    "mean": 1652.4800340016686,
+    "std": 260.8105111222134
+   },
+   "lat_acc_p95": {
+    "mean": 52.636496269702846,
+    "std": 6.387701215790248
+   },
+   "max_lat": {
+    "mean": 4.117492280900478,
+    "std": 0.796463381712205
+   },
+   "fwd_progress": {
+    "mean": 196.7953275044759,
+    "std": 3.657040120699606
+   }
+  },
+  "ft_best_expert": {
+   "corridor_exit_m": {
+    "mean": 1.7082646042108536,
+    "std": 1.8201840781849108
+   },
+   "jerk_p95": {
+    "mean": 1591.7113968531294,
+    "std": 484.66185009466244
+   },
+   "lat_acc_p95": {
+    "mean": 43.77128711442148,
+    "std": 4.116415466096549
+   },
+   "max_lat": {
+    "mean": 4.686310961842537,
+    "std": 1.839082086317459
+   },
+   "fwd_progress": {
+    "mean": 200.33816083272296,
+    "std": 5.404566913329997
+   }
+  },
+  "joint_replay": {
+   "corridor_exit_m": {
+    "mean": 5.114911136527857,
+    "std": 2.791266605527613
+   },
+   "jerk_p95": {
+    "mean": 1298.175921376547,
+    "std": 81.24211326927987
+   },
+   "lat_acc_p95": {
+    "mean": 51.003697854280446,
+    "std": 2.490838117803781
+   },
+   "max_lat": {
+    "mean": 7.9424174800515175,
+    "std": 2.7467976639839935
+   },
+   "fwd_progress": {
+    "mean": 199.43955548604328,
+    "std": 2.813940032761437
+   }
+  },
+  "static_rule": {
+   "corridor_exit_m": {
+    "mean": 11.400272091229757,
+    "std": 3.7039771339943472
+   },
+   "jerk_p95": {
+    "mean": 967.6563949584977,
+    "std": 3.029317710241577
+   },
+   "lat_acc_p95": {
+    "mean": 54.256278574466535,
+    "std": 0.3603984912978782
+   },
+   "max_lat": {
+    "mean": 14.400272091229755,
+    "std": 3.703977133994346
+   },
+   "fwd_progress": {
+    "mean": 163.70628257592517,
+    "std": 2.2672017436739353
+   }
+  }
+ }
+}

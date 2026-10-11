@@ -1,0 +1,422 @@
+[
+ {
+  "file": "substrate/shared_plus_experts.pth",
+  "tensors": 192,
+  "note": "frozen adapter stack: shared module + per-ODD experts (index 0 hongo, 1 kashiwa, 2 shalun, 3 unagoya, 4 nishishinjuku; the paper uses 0-3)",
+  "sha256": "7c52864f8a5b24bd084e5702eda785adb2c1c9aa95a06f844043de3187358fdf"
+ },
+ {
+  "file": "joint_replay/pool_a_checkpoint.pth",
+  "tensors": 192,
+  "note": "joint replay scored on the 24-scene routing pool (Sec. 4, Sec. 5.3 proxies); evaluate with expert 3",
+  "sha256": "f585bba32a6a3622e32b979b32c9646c601b6c7e40147e8190503caf8771ca53"
+ },
+ {
+  "file": "joint_replay/from_scratch_r4.pth",
+  "tensors": 192,
+  "note": "from-scratch joint replay, rank 4 (Run 2 of the rank sweep); evaluate with expert 3",
+  "sha256": "fd8e7604a1a582de938e7983894186541e9c8b2781b05376e8485de530a015b9"
+ },
+ {
+  "file": "matched_baselines/ft_best_expert_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/ft_best_expert_sp80_s42.json",
+  "sha256": "3421beabfa25852f44601732a802afc0f3968c0935fc7a9d4e06e070f7bb9d81"
+ },
+ {
+  "file": "matched_baselines/ft_best_expert_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/ft_best_expert_sp80_s43.json",
+  "sha256": "aea3c875cf0a5e53d0118f777edd7d07e18fea1577aafb1b30025fa19796999f"
+ },
+ {
+  "file": "matched_baselines/ft_best_expert_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/ft_best_expert_sp80_s44.json",
+  "sha256": "8b72e93bdc14e4cbd33837ce87e59396f09c26824003e5e0307ccd918c0494c1"
+ },
+ {
+  "file": "matched_baselines/ft_best_expert_sp80_s45.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/ft_best_expert_sp80_s45.json",
+  "sha256": "d86f71dbde08e599531e584f0ae69650b42bebf521b4fac35b3e250fcc1e0ea6"
+ },
+ {
+  "file": "matched_baselines/ft_best_expert_sp80_s46.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/ft_best_expert_sp80_s46.json",
+  "sha256": "87bb8e87a5a3e7fb59b2dcdbd6805062f1e88c8610f07e70d6d58c94bfa99f5f"
+ },
+ {
+  "file": "matched_baselines/ft_best_expert_sp80_s47.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/ft_best_expert_sp80_s47.json",
+  "sha256": "c2f2546b13d0fe6b8547894fa80e5bf1b1439d42f1f205839a52a8e78a32e1cd"
+ },
+ {
+  "file": "matched_baselines/ft_best_expert_sp80_s48.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/ft_best_expert_sp80_s48.json",
+  "sha256": "d5d69c7b9d332e607c094aab6e255c75491be0b0731badbcdb9144986ee93bea"
+ },
+ {
+  "file": "matched_baselines/ft_best_expert_sp80_s49.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/ft_best_expert_sp80_s49.json",
+  "sha256": "7f0a399b24e737a32805e39ebc0ee33bab4abe8a78c53ae0bdfc52de415e1877"
+ },
+ {
+  "file": "matched_baselines/joint_replay_per0.6_sp80_frng_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_per0.6_sp80_frng_s42.json",
+  "sha256": "8fcdd613e254b1c812997615050601948e4e5b6eb6bc73f689be35cd22a81722"
+ },
+ {
+  "file": "matched_baselines/joint_replay_per0.6_sp80_frng_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_per0.6_sp80_frng_s43.json",
+  "sha256": "f65e6306714aaccf1e9752f4436524cdc92dca2a83a01465d21b20d893c4ddbe"
+ },
+ {
+  "file": "matched_baselines/joint_replay_per0.6_sp80_frng_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_per0.6_sp80_frng_s44.json",
+  "sha256": "c9cd507273b5aa397bde1a1dd752f3015803ded835dd3a2c44a55626d266e9e1"
+ },
+ {
+  "file": "matched_baselines/joint_replay_per0.6_sp80_frng_s45.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_per0.6_sp80_frng_s45.json",
+  "sha256": "99cb7b29dd21c74983134d2bd4120ee04417dbf9b03a952fe51cd5d85c1f52ae"
+ },
+ {
+  "file": "matched_baselines/joint_replay_per0.6_sp80_frng_s46.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_per0.6_sp80_frng_s46.json",
+  "sha256": "bc7e683aab9f9b6d31de02f6fb2b53c5354ce3413f2dd5cd9822d257d8fedec3"
+ },
+ {
+  "file": "matched_baselines/joint_replay_per0.6_sp80_frng_s47.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_per0.6_sp80_frng_s47.json",
+  "sha256": "baa82645e638848370f1b5844fe95db8244b0d4d4055ec983024745e390cb9af"
+ },
+ {
+  "file": "matched_baselines/joint_replay_per0.6_sp80_frng_s48.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_per0.6_sp80_frng_s48.json",
+  "sha256": "4064d644efec1ce345c7c6e50d4a2f7f157b2d6f2f66f96e19acc1f6b7cd9a98"
+ },
+ {
+  "file": "matched_baselines/joint_replay_per0.6_sp80_frng_s49.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_per0.6_sp80_frng_s49.json",
+  "sha256": "67dbd8098fd4a997e13dc8b6fc9c5fecc791d85ff081a98cd8388cd839521489"
+ },
+ {
+  "file": "matched_baselines/joint_replay_sp80_frng_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_sp80_frng_s42.json",
+  "sha256": "17b494d34cdb5626afaee0aa64741810bee879125a9725600c4e23218bcb6033"
+ },
+ {
+  "file": "matched_baselines/joint_replay_sp80_frng_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_sp80_frng_s43.json",
+  "sha256": "b51141dca61c7fb3c7d8ebd68dbdc036d01aa487b5f7f52004ea02dd6e43e993"
+ },
+ {
+  "file": "matched_baselines/joint_replay_sp80_frng_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_sp80_frng_s44.json",
+  "sha256": "30591bf185e143854dbc9478f8c5879cd207e1e5e103e8d2e8d9fe0b434a73ce"
+ },
+ {
+  "file": "matched_baselines/joint_replay_sp80_frng_s45.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_sp80_frng_s45.json",
+  "sha256": "1a9fb3a3f1bf957477e1a436321c4448f4c2b0b20d6da1657f02b5bbec333600"
+ },
+ {
+  "file": "matched_baselines/joint_replay_sp80_frng_s46.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_sp80_frng_s46.json",
+  "sha256": "7dabb4a825eeae721a73b6ca5d189d993c03a427a3728a8cc596053cf9787d1a"
+ },
+ {
+  "file": "matched_baselines/joint_replay_sp80_frng_s47.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_sp80_frng_s47.json",
+  "sha256": "505d0c8a7c5ba21623bdcd69cd48f6250904043bdf7cd486d41ef68dfc042bae"
+ },
+ {
+  "file": "matched_baselines/joint_replay_sp80_frng_s48.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_sp80_frng_s48.json",
+  "sha256": "2bd49678bd30e166b81be0480284afd9360fea42f019d00bc7f97225d2fdf5a4"
+ },
+ {
+  "file": "matched_baselines/joint_replay_sp80_frng_s49.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/joint_replay_sp80_frng_s49.json",
+  "sha256": "8ee64ea47b4d2ab2c3a459ebc089e10a47a4bb87807fe4ce98325cb17f226ec5"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc10000_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc10000_sp80_s42.json",
+  "sha256": "36239c3477b473b2c7907c2fbb6a85278e4e835202a7764fa2f468f889debdce"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc10000_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc10000_sp80_s43.json",
+  "sha256": "8b92bfe1468433dbbe8e8d12688f27176f928dbc83b158ed40979a9f08d70630"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc10000_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc10000_sp80_s44.json",
+  "sha256": "992f826269052310a55b069b8f54050188ccf270f7bbc61fef949953c3f9e6b4"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc1000_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc1000_sp80_s42.json",
+  "sha256": "16818333d00afb3989415a2bb5282f68115adeb0307a4db739064876cb31fe97"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc1000_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc1000_sp80_s43.json",
+  "sha256": "6d3e2539f32ffe7585e338825f50d7b2048870f69bce3665bcf79adf7460b640"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc1000_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc1000_sp80_s44.json",
+  "sha256": "9615142d25dae6d754b772cc4f5b8941521ce40db8f14c668ab81968328a5aac"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc100_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc100_sp80_s42.json",
+  "sha256": "8e3f420899321cb1a5710b271320e5a8bcded2b5f3cc5876345d7637fb3226f6"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc100_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc100_sp80_s43.json",
+  "sha256": "81886053e0d96d6ad9ebd283dd03185cadcf1336d47cccaa8204609c3304c11e"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc100_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc100_sp80_s44.json",
+  "sha256": "b56a3e2b181eb672bfdd45d62117182eef84a335d46da88afb1fe4fec5c3799d"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc3000_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc3000_sp80_s42.json",
+  "sha256": "92964a14bc0cb08d6e242e86ea26994d9e28d6b4c86b41a23ca23403b1085d0f"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc3000_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc3000_sp80_s43.json",
+  "sha256": "3d21ddcdf82ae8c3698836fd2909182be3c21c5d30dc78aa101bc6864cc24bcf"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc3000_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc3000_sp80_s44.json",
+  "sha256": "3f5b1f80a7a3dbee9d8e58b693c4e1393d3b5b8bfc03775c77e8247bcd94a63f"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc300_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc300_sp80_s42.json",
+  "sha256": "0d87c08fb32cd627de5c81b7278d3a3501c9ae9b72166751858db64d614fdf1e"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc300_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc300_sp80_s43.json",
+  "sha256": "1c58d03676c495b894253db4783192d26eda8a88bdc99e8265184e5817618807"
+ },
+ {
+  "file": "matched_baselines/target_only_ewc300_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_ewc300_sp80_s44.json",
+  "sha256": "45054fce09ab8471ff60c19c7c66f094f458fbcce08c6d0afc5747691208042a"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.001_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.001_sp80_s42.json",
+  "sha256": "aaec06aaf95b3b52177fbf422a58d6864e6594d77e4a0a206efa59635055052e"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.001_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.001_sp80_s43.json",
+  "sha256": "06b55ff7f7e0b4c3d4f489add19677de3a45158fe106328e5446100806fa2fe2"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.001_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.001_sp80_s44.json",
+  "sha256": "c5e1563a9b6e4f39c8e61056726bcc99da548e945a3cd5d42642763b3ec46ac4"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.001_sp80_s45.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.001_sp80_s45.json",
+  "sha256": "51016e5503e3a83fcd0c0116d4c013e3f71ec399ad173fc6ab3c6c9bf05e2b27"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.001_sp80_s46.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.001_sp80_s46.json",
+  "sha256": "2f761e85e8aed55a33509bb121b36a91b61a8aabe7719a68cef6773d74b775bd"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.001_sp80_s47.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.001_sp80_s47.json",
+  "sha256": "9d99dc927fd63adb752192b866262bf6ae0f5ecdedbf59414db0482a7ad5a515"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.001_sp80_s48.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.001_sp80_s48.json",
+  "sha256": "cf8a0097d41edb2f20e9c600de09f902fd3faabf2cc2f0ad4137a62f890c2ed1"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.001_sp80_s49.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.001_sp80_s49.json",
+  "sha256": "d2cb190ddc83f021c6dcb76eea8502037b06c25a332ab86aed61b449e09e3ff5"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.01_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.01_sp80_s42.json",
+  "sha256": "a1290160fd23d019a7c77165465ae4d662d79f2db012ff128db68a94e15c6ed0"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.01_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.01_sp80_s43.json",
+  "sha256": "98f6e2cab502b6adb69e6e11d86258cb90b49cd191168b57a9521172c64d5ceb"
+ },
+ {
+  "file": "matched_baselines/target_only_l2sp0.01_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_l2sp0.01_sp80_s44.json",
+  "sha256": "8afd315d3ef40c8c463da787bbdd23545e19781bc072dbab1a1ea7795d8819dc"
+ },
+ {
+  "file": "matched_baselines/target_only_scratch_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_scratch_sp80_s42.json",
+  "sha256": "4f88726fd3752fa572f922d93a26af46a346d4ba9abb965d7b17144eaa8bc23b"
+ },
+ {
+  "file": "matched_baselines/target_only_scratch_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_scratch_sp80_s43.json",
+  "sha256": "a9745f511c16b4395ded500f3413786a346eeb078debf0e93adaefb7a568a7ee"
+ },
+ {
+  "file": "matched_baselines/target_only_scratch_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_scratch_sp80_s44.json",
+  "sha256": "9b3ab52f00ac2759d6aad1fb754b01c5ed004f1dcba7ccbe7bff43d14ddb1a41"
+ },
+ {
+  "file": "matched_baselines/target_only_scratch_sp80_s45.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_scratch_sp80_s45.json",
+  "sha256": "f789ee3a55b75803c5c133ce8150e774e2da021f6de95ea0fb21ce002a3626c6"
+ },
+ {
+  "file": "matched_baselines/target_only_scratch_sp80_s46.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_scratch_sp80_s46.json",
+  "sha256": "78270dc26101c19de73371de474a640a4f0525f564ef12fefde3b5fbae1d5b38"
+ },
+ {
+  "file": "matched_baselines/target_only_scratch_sp80_s47.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_scratch_sp80_s47.json",
+  "sha256": "20be9a968fe745bbb3185bef8aca50070a3ee56b575627ec49cad26e7a4303ee"
+ },
+ {
+  "file": "matched_baselines/target_only_scratch_sp80_s48.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_scratch_sp80_s48.json",
+  "sha256": "26492106a30b509c13b20830f943b7c2856e298ac76de5bd86e74228a11a621b"
+ },
+ {
+  "file": "matched_baselines/target_only_scratch_sp80_s49.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_scratch_sp80_s49.json",
+  "sha256": "b7326b9bfc1c298e1bdd379256ce0239f17b73a8a57bf271fac669c95b232b9a"
+ },
+ {
+  "file": "matched_baselines/target_only_sp80_s42.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_sp80_s42.json",
+  "sha256": "a80cf10b45522433195bd70fa4924acd2f1fd8738916f4bb6f5418f97b231bce"
+ },
+ {
+  "file": "matched_baselines/target_only_sp80_s43.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_sp80_s43.json",
+  "sha256": "5a40162b7577860c05bedb9b144707ba1e2e23419e4ba86e0d0f73500f6f2164"
+ },
+ {
+  "file": "matched_baselines/target_only_sp80_s44.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_sp80_s44.json",
+  "sha256": "b188db67711a7944b435fc825343a37cfdc2f7a3c0ae6e288d3c22a36cc2e10c"
+ },
+ {
+  "file": "matched_baselines/target_only_sp80_s45.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_sp80_s45.json",
+  "sha256": "5e26b8ee067b2d9e649215bff14b0a11d09ebbe70f986dbae49bedbbe4b9ea3e"
+ },
+ {
+  "file": "matched_baselines/target_only_sp80_s46.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_sp80_s46.json",
+  "sha256": "2b68188dbdf3adebfb4d6914ffd76c5372d303d691ca7ccf23fc6b47adff5193"
+ },
+ {
+  "file": "matched_baselines/target_only_sp80_s47.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_sp80_s47.json",
+  "sha256": "54a292e2ede4e92d8c1fd76787c8b376dd408dc542919be0fef6213d89283636"
+ },
+ {
+  "file": "matched_baselines/target_only_sp80_s48.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_sp80_s48.json",
+  "sha256": "02a0416d58e87c764c58933cf9e7b7ceb59e15f2e459aadbcc7843cb1a2da8f7"
+ },
+ {
+  "file": "matched_baselines/target_only_sp80_s49.pth",
+  "tensors": 192,
+  "note": "Table 3 run; same name as results/matched_baselines/runs/target_only_sp80_s49.json",
+  "sha256": "e33ac3276b25d72e9ac63774cffd395a25ac2e011a9713241f8f8a04e78faf26"
+ },
+ {
+  "file": "shared_adapter_repair/shared_park.pth",
+  "tensors": 32,
+  "note": "shared module after the perturbation repair of Sec. 5.2 (key shared_state_dict)",
+  "sha256": "0851f6dfee645c410a87ddc211f808785a27040cbf12c3f9807b1df7d1375967"
+ }
+]

@@ -1,0 +1,134 @@
+{
+ "pre": {
+  "per_odd": {
+   "hongo": {
+    "n": 10,
+    "progress_mean": 179.33851470947266,
+    "route_dev_mean": 10.438695001602174
+   },
+   "kashiwa": {
+    "n": 10,
+    "progress_mean": 190.8059295654297,
+    "route_dev_mean": 14.082366037368775
+   },
+   "shalun": {
+    "n": 10,
+    "progress_mean": 217.24073638916016,
+    "route_dev_mean": 0.0
+   },
+   "unagoya": {
+    "n": 10,
+    "progress_mean": 186.18948822021486,
+    "route_dev_mean": 16.102416706085204
+   }
+  },
+  "sum_route_dev": 40.62347774505615,
+  "sum_progress": 773.5746688842773
+ },
+ "soups": {
+  "uniform_soup_all4": {
+   "per_odd": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 194.61349029541014,
+     "route_dev_mean": 16.979273128509522
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 196.20247344970704,
+     "route_dev_mean": 15.179022121429444
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 201.88747863769532,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 191.306787109375,
+     "route_dev_mean": 16.83638916015625
+    }
+   },
+   "sum_route_dev": 48.99468441009522,
+   "sum_progress": 784.0102294921875
+  },
+  "greedy_soup": {
+   "per_odd": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 190.58690795898437,
+     "route_dev_mean": 16.41259708404541
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 190.07855682373048,
+     "route_dev_mean": 14.211940002441406
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 195.80524291992188,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 186.18948364257812,
+     "route_dev_mean": 16.102416515350342
+    }
+   },
+   "sum_route_dev": 46.72695360183715,
+   "sum_progress": 762.6601913452148
+  },
+  "TIES_density_0.2": {
+   "per_odd": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 184.41915893554688,
+     "route_dev_mean": 13.149517059326172
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 187.86240844726564,
+     "route_dev_mean": 13.363355112075805
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 194.7499740600586,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 185.1363052368164,
+     "route_dev_mean": 14.805378437042236
+    }
+   },
+   "sum_route_dev": 41.31825060844422,
+   "sum_progress": 752.1678466796875
+  },
+  "TIES_density_0.5": {
+   "per_odd": {
+    "hongo": {
+     "n": 10,
+     "progress_mean": 182.52691345214845,
+     "route_dev_mean": 12.66803789138794
+    },
+    "kashiwa": {
+     "n": 10,
+     "progress_mean": 185.62637634277343,
+     "route_dev_mean": 13.089391803741455
+    },
+    "shalun": {
+     "n": 10,
+     "progress_mean": 192.26673126220703,
+     "route_dev_mean": 0.0
+    },
+    "unagoya": {
+     "n": 10,
+     "progress_mean": 182.90131683349608,
+     "route_dev_mean": 14.556844329833984
+    }
+   },
+   "sum_route_dev": 40.31427402496338,
+   "sum_progress": 743.321337890625
+  }
+ }
+}

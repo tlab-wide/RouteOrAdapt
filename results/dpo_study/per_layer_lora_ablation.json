@@ -1,0 +1,70 @@
+{
+ "_full_lora": 0.9666666666666667,
+ "_all_zero": 0.2,
+ "per_layer": {
+  "decoder.dit.preproj.fc1": {
+   "rate": 0.5333333333333333,
+   "delta": -0.43333333333333335
+  },
+  "decoder.dit.preproj.fc2": {
+   "rate": 0.9,
+   "delta": -0.06666666666666665
+  },
+  "decoder.dit.blocks.0.mlp1.fc1": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.0.mlp1.fc2": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.0.mlp2.fc1": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.0.mlp2.fc2": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.1.mlp1.fc1": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.1.mlp1.fc2": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.1.mlp2.fc1": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.1.mlp2.fc2": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.2.mlp1.fc1": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.2.mlp1.fc2": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.2.mlp2.fc1": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.blocks.2.mlp2.fc2": {
+   "rate": 0.9666666666666667,
+   "delta": 0.0
+  },
+  "decoder.dit.final_layer.proj.1": {
+   "rate": 0.9333333333333333,
+   "delta": -0.033333333333333326
+  },
+  "decoder.dit.final_layer.proj.4": {
+   "rate": 0.9,
+   "delta": -0.06666666666666665
+  }
+ }
+}

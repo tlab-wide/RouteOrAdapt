@@ -1,0 +1,235 @@
+{
+ "description": "Stage 12 (Idea 4): Park-Aware Backbone Repair via shared-LoRA fine-tune on park-perturbed prod-ODD scenes",
+ "n_opt_steps": 500,
+ "grad_accum": 4,
+ "lr": 5e-05,
+ "park_prob": 0.5,
+ "rot_max_rad": 0.7853981633974483,
+ "bezier_amp_m": 3.0,
+ "pre_aichi": {
+  "aichi_hub_v2": {
+   "mean": 14.261098861694336,
+   "std": 4.133954540642014,
+   "n": 4
+  },
+  "ishio_dai": {
+   "mean": 7.720583915710449,
+   "std": 4.567685398878289,
+   "n": 10
+  },
+  "morikoro": {
+   "mean": 46.30127389431,
+   "std": 35.2745545917281,
+   "n": 10
+  }
+ },
+ "post_aichi": {
+  "aichi_hub_v2": {
+   "mean": 5.993662714958191,
+   "std": 2.2286968447580846,
+   "n": 4
+  },
+  "ishio_dai": {
+   "mean": 6.0517027378082275,
+   "std": 1.633984202933478,
+   "n": 10
+  },
+  "morikoro": {
+   "mean": 21.43631763458252,
+   "std": 26.011162194093217,
+   "n": 10
+  }
+ },
+ "pre_prod": {
+  "hongo": {
+   "n": 10,
+   "progress_mean": 179.33851470947266,
+   "route_dev_mean": 10.438695001602174
+  },
+  "kashiwa": {
+   "n": 10,
+   "progress_mean": 190.8059295654297,
+   "route_dev_mean": 14.082366037368775
+  },
+  "shalun": {
+   "n": 10,
+   "progress_mean": 217.24073638916016,
+   "route_dev_mean": 0.0
+  },
+  "unagoya": {
+   "n": 10,
+   "progress_mean": 186.18948822021486,
+   "route_dev_mean": 16.102416706085204
+  }
+ },
+ "post_prod": {
+  "hongo": {
+   "n": 10,
+   "progress_mean": 177.4938995361328,
+   "route_dev_mean": 17.54872465133667
+  },
+  "kashiwa": {
+   "n": 10,
+   "progress_mean": 194.9189468383789,
+   "route_dev_mean": 14.549320220947266
+  },
+  "shalun": {
+   "n": 10,
+   "progress_mean": 213.47560272216796,
+   "route_dev_mean": 0.0
+  },
+  "unagoya": {
+   "n": 10,
+   "progress_mean": 190.25216217041014,
+   "route_dev_mean": 15.871311473846436
+  }
+ },
+ "train_log": {
+  "steps": [
+   {
+    "step": 1,
+    "mean_reward": 276.8544807434082,
+    "elapsed_s": 0.5990035533905029
+   },
+   {
+    "step": 25,
+    "mean_reward": 353.98138694763185,
+    "elapsed_s": 12.065591096878052
+   },
+   {
+    "step": 50,
+    "mean_reward": 357.74814122200013,
+    "elapsed_s": 24.14697241783142
+   },
+   {
+    "step": 75,
+    "mean_reward": 388.1586880302429,
+    "elapsed_s": 36.09866523742676
+   },
+   {
+    "step": 100,
+    "mean_reward": 395.6397190475464,
+    "elapsed_s": 48.14769625663757
+   },
+   {
+    "step": 125,
+    "mean_reward": 388.966523771286,
+    "elapsed_s": 60.16158437728882
+   },
+   {
+    "step": 150,
+    "mean_reward": 369.5007463550568,
+    "elapsed_s": 72.14309334754944
+   },
+   {
+    "step": 175,
+    "mean_reward": 397.1590110397339,
+    "elapsed_s": 84.1457896232605
+   },
+   {
+    "step": 200,
+    "mean_reward": 360.3119093322754,
+    "elapsed_s": 95.92082715034485
+   },
+   {
+    "step": 225,
+    "mean_reward": 372.84852288246157,
+    "elapsed_s": 107.41653800010681
+   },
+   {
+    "step": 250,
+    "mean_reward": 383.06599964141844,
+    "elapsed_s": 118.81499910354614
+   },
+   {
+    "step": 275,
+    "mean_reward": 394.58499946594236,
+    "elapsed_s": 130.3738033771515
+   },
+   {
+    "step": 300,
+    "mean_reward": 385.883670501709,
+    "elapsed_s": 141.85086822509766
+   },
+   {
+    "step": 325,
+    "mean_reward": 399.77252789497373,
+    "elapsed_s": 153.22837615013123
+   },
+   {
+    "step": 350,
+    "mean_reward": 366.0003624916077,
+    "elapsed_s": 164.69994950294495
+   },
+   {
+    "step": 375,
+    "mean_reward": 403.95933265686034,
+    "elapsed_s": 176.0876362323761
+   },
+   {
+    "step": 400,
+    "mean_reward": 368.66883025169375,
+    "elapsed_s": 187.55951023101807
+   },
+   {
+    "step": 425,
+    "mean_reward": 357.5376072406769,
+    "elapsed_s": 199.0523476600647
+   },
+   {
+    "step": 450,
+    "mean_reward": 407.0758033180237,
+    "elapsed_s": 210.47778248786926
+   },
+   {
+    "step": 475,
+    "mean_reward": 402.9108344268799,
+    "elapsed_s": 221.99491620063782
+   },
+   {
+    "step": 500,
+    "mean_reward": 391.79897022247314,
+    "elapsed_s": 233.43918800354004
+   }
+  ],
+  "pre_aichi": {
+   "aichi_hub_v2": {
+    "mean": 14.261098861694336,
+    "std": 4.133954540642014,
+    "n": 4
+   },
+   "ishio_dai": {
+    "mean": 7.720583915710449,
+    "std": 4.567685398878289,
+    "n": 10
+   },
+   "morikoro": {
+    "mean": 46.30127389431,
+    "std": 35.2745545917281,
+    "n": 10
+   }
+  },
+  "pre_prod": {
+   "hongo": {
+    "n": 10,
+    "progress_mean": 179.33851470947266,
+    "route_dev_mean": 10.438695001602174
+   },
+   "kashiwa": {
+    "n": 10,
+    "progress_mean": 190.8059295654297,
+    "route_dev_mean": 14.082366037368775
+   },
+   "shalun": {
+    "n": 10,
+    "progress_mean": 217.24073638916016,
+    "route_dev_mean": 0.0
+   },
+   "unagoya": {
+    "n": 10,
+    "progress_mean": 186.18948822021486,
+    "route_dev_mean": 16.102416706085204
+   }
+  }
+ }
+}

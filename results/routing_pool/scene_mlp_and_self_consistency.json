@@ -1,0 +1,2089 @@
+{
+ "description": "Stage 5: SCR applied to unseen-map scenes + comparison table",
+ "rows": [
+  {
+   "map": "aichi_hub_v2",
+   "ego_idx": 0,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 173.09280395507812,
+    "fwd_progress": 160.70994567871094,
+    "max_lat": 5.693674564361572
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 184.66510009765625,
+    "fwd_progress": 177.36148071289062,
+    "max_lat": 8.946478843688965
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 173.09280395507812,
+    "fwd_progress": 160.70994567871094,
+    "max_lat": 5.693674564361572
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 184.66510009765625,
+    "fwd_progress": 177.36148071289062,
+    "max_lat": 8.946478843688965
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 10.784222602844238,
+    "fwd_progress": -10.757019996643066,
+    "max_lat": 0.25699231028556824
+   },
+   "mean_of_experts_lat": 6.0376957654953,
+   "mean_of_experts_fwd": 167.2342529296875,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 160.33016967773438,
+     "fwd_progress": 152.17759704589844,
+     "max_lat": 4.378171920776367
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 174.9325714111328,
+     "fwd_progress": 163.41876220703125,
+     "max_lat": 5.099204063415527
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 200.2277374267578,
+     "fwd_progress": 192.63070678710938,
+     "max_lat": 8.979732513427734
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 173.09280395507812,
+     "fwd_progress": 160.70994567871094,
+     "max_lat": 5.693674564361572
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 184.66510009765625,
+     "fwd_progress": 177.36148071289062,
+     "max_lat": 8.946478843688965
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 10.784222602844238,
+     "fwd_progress": -10.757019996643066,
+     "max_lat": 0.25699231028556824
+    }
+   },
+   "scr_probs": {
+    "hongo": 8.777609173359069e-13,
+    "kashiwa": 1.4605635807851789e-15,
+    "shalun": 1.793858948840468e-16,
+    "unagoya": 1.0
+   }
+  },
+  {
+   "map": "aichi_hub_v2",
+   "ego_idx": 1,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 171.65005493164062,
+    "fwd_progress": 158.32974243164062,
+    "max_lat": 4.0153985023498535
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 183.76846313476562,
+    "fwd_progress": 174.8668670654297,
+    "max_lat": 16.67747688293457
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 171.65005493164062,
+    "fwd_progress": 158.32974243164062,
+    "max_lat": 4.0153985023498535
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 183.76846313476562,
+    "fwd_progress": 174.8668670654297,
+    "max_lat": 16.67747688293457
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 15.725811958312988,
+    "fwd_progress": -15.68545150756836,
+    "max_lat": 0.9147868156433105
+   },
+   "mean_of_experts_lat": 8.991602182388306,
+   "mean_of_experts_fwd": 165.4590606689453,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 161.8235321044922,
+     "fwd_progress": 151.18597412109375,
+     "max_lat": 8.83104419708252
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 173.5961151123047,
+     "fwd_progress": 160.94793701171875,
+     "max_lat": 7.22288179397583
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 200.31362915039062,
+     "fwd_progress": 191.37258911132812,
+     "max_lat": 15.89708423614502
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 171.65005493164062,
+     "fwd_progress": 158.32974243164062,
+     "max_lat": 4.0153985023498535
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 183.76846313476562,
+     "fwd_progress": 174.8668670654297,
+     "max_lat": 16.67747688293457
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 15.725811958312988,
+     "fwd_progress": -15.68545150756836,
+     "max_lat": 0.9147868156433105
+    }
+   },
+   "scr_probs": {
+    "hongo": 1.2562941138771766e-12,
+    "kashiwa": 4.0172394219755575e-14,
+    "shalun": 8.382581094372194e-15,
+    "unagoya": 1.0
+   }
+  },
+  {
+   "map": "aichi_hub_v2",
+   "ego_idx": 2,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 176.377685546875,
+    "fwd_progress": 163.5824737548828,
+    "max_lat": 4.237057685852051
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 189.12754821777344,
+    "fwd_progress": 180.00726318359375,
+    "max_lat": 18.258230209350586
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 176.377685546875,
+    "fwd_progress": 163.5824737548828,
+    "max_lat": 4.237057685852051
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 189.12754821777344,
+    "fwd_progress": 180.00726318359375,
+    "max_lat": 18.258230209350586
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 10.287878036499023,
+    "fwd_progress": 6.012922286987305,
+    "max_lat": 0.1177763119339943
+   },
+   "mean_of_experts_lat": 8.47053611278534,
+   "mean_of_experts_fwd": 170.41146850585938,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 165.68553161621094,
+     "fwd_progress": 156.5172119140625,
+     "max_lat": 6.2677693367004395
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 178.6651153564453,
+     "fwd_progress": 166.6191864013672,
+     "max_lat": 6.537660598754883
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 203.9076385498047,
+     "fwd_progress": 194.927001953125,
+     "max_lat": 16.839656829833984
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 176.377685546875,
+     "fwd_progress": 163.5824737548828,
+     "max_lat": 4.237057685852051
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 189.12754821777344,
+     "fwd_progress": 180.00726318359375,
+     "max_lat": 18.258230209350586
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 10.287878036499023,
+     "fwd_progress": 6.012922286987305,
+     "max_lat": 0.1177763119339943
+    }
+   },
+   "scr_probs": {
+    "hongo": 6.684407259476e-13,
+    "kashiwa": 8.528724453322307e-16,
+    "shalun": 8.505423768083423e-17,
+    "unagoya": 1.0
+   }
+  },
+  {
+   "map": "aichi_hub_v2",
+   "ego_idx": 3,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 171.22607421875,
+    "fwd_progress": 157.87777709960938,
+    "max_lat": 4.113831043243408
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 187.35313415527344,
+    "fwd_progress": 178.4502716064453,
+    "max_lat": 13.16221809387207
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 171.22607421875,
+    "fwd_progress": 157.87777709960938,
+    "max_lat": 4.113831043243408
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 187.35313415527344,
+    "fwd_progress": 178.4502716064453,
+    "max_lat": 13.16221809387207
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 25.318811416625977,
+    "fwd_progress": 22.417583465576172,
+    "max_lat": 0.3451487123966217
+   },
+   "mean_of_experts_lat": 6.585870862007141,
+   "mean_of_experts_fwd": 165.91785430908203,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 160.4011993408203,
+     "fwd_progress": 150.8402862548828,
+     "max_lat": 4.4665422439575195
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 174.75738525390625,
+     "fwd_progress": 162.1477813720703,
+     "max_lat": 5.0652618408203125
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 201.84019470214844,
+     "fwd_progress": 192.80557250976562,
+     "max_lat": 12.697848320007324
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 171.22607421875,
+     "fwd_progress": 157.87777709960938,
+     "max_lat": 4.113831043243408
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 187.35313415527344,
+     "fwd_progress": 178.4502716064453,
+     "max_lat": 13.16221809387207
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 25.318811416625977,
+     "fwd_progress": 22.417583465576172,
+     "max_lat": 0.3451487123966217
+    }
+   },
+   "scr_probs": {
+    "hongo": 6.148481246706639e-13,
+    "kashiwa": 4.19454577950569e-14,
+    "shalun": 5.945795630613081e-15,
+    "unagoya": 1.0
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 0,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 179.7368621826172,
+    "fwd_progress": 171.11595153808594,
+    "max_lat": 14.317462921142578
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 146.38809204101562,
+    "fwd_progress": 141.27487182617188,
+    "max_lat": 2.958193063735962
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 184.3673095703125,
+    "fwd_progress": 170.8480987548828,
+    "max_lat": 4.518222332000732
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 146.38809204101562,
+    "fwd_progress": 141.27487182617188,
+    "max_lat": 2.958193063735962
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 26.54251480102539,
+    "fwd_progress": -26.512001037597656,
+    "max_lat": 1.2653446197509766
+   },
+   "mean_of_experts_lat": 7.323767066001892,
+   "mean_of_experts_fwd": 174.98348236083984,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 179.7368621826172,
+     "fwd_progress": 171.11595153808594,
+     "max_lat": 14.317462921142578
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 185.47213745117188,
+     "fwd_progress": 173.23858642578125,
+     "max_lat": 5.378717422485352
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 190.81396484375,
+     "fwd_progress": 184.73129272460938,
+     "max_lat": 5.080665588378906
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 184.3673095703125,
+     "fwd_progress": 170.8480987548828,
+     "max_lat": 4.518222332000732
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 146.38809204101562,
+     "fwd_progress": 141.27487182617188,
+     "max_lat": 2.958193063735962
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 26.54251480102539,
+     "fwd_progress": -26.512001037597656,
+     "max_lat": 1.2653446197509766
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9999808073043823,
+    "kashiwa": 1.2851751607367845e-10,
+    "shalun": 6.976330624297589e-09,
+    "unagoya": 1.9214226995245554e-05
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 1,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 172.71412658691406,
+    "fwd_progress": 163.17013549804688,
+    "max_lat": 8.699379920959473
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 153.2055206298828,
+    "fwd_progress": 147.42568969726562,
+    "max_lat": 5.8185811042785645
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 183.21292114257812,
+    "fwd_progress": 170.37591552734375,
+    "max_lat": 4.282808303833008
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 153.2055206298828,
+    "fwd_progress": 147.42568969726562,
+    "max_lat": 5.8185811042785645
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 31.967893600463867,
+    "fwd_progress": -31.875993728637695,
+    "max_lat": 2.589966058731079
+   },
+   "mean_of_experts_lat": 9.995253324508667,
+   "mean_of_experts_fwd": 170.80619049072266,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 172.71412658691406,
+     "fwd_progress": 163.17013549804688,
+     "max_lat": 8.699379920959473
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 183.21168518066406,
+     "fwd_progress": 170.64971923828125,
+     "max_lat": 13.202241897583008
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 186.11196899414062,
+     "fwd_progress": 179.02899169921875,
+     "max_lat": 13.79658317565918
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 183.21292114257812,
+     "fwd_progress": 170.37591552734375,
+     "max_lat": 4.282808303833008
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 153.2055206298828,
+     "fwd_progress": 147.42568969726562,
+     "max_lat": 5.8185811042785645
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 31.967893600463867,
+     "fwd_progress": -31.875993728637695,
+     "max_lat": 2.589966058731079
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9999885559082031,
+    "kashiwa": 1.554079955001786e-11,
+    "shalun": 3.7182552592440743e-09,
+    "unagoya": 1.1392525266273879e-05
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 2,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 173.275146484375,
+    "fwd_progress": 163.6654052734375,
+    "max_lat": 4.7907819747924805
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 195.9221954345703,
+    "fwd_progress": 187.7332763671875,
+    "max_lat": 4.229912281036377
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 179.37786865234375,
+    "fwd_progress": 165.502685546875,
+    "max_lat": 5.907360076904297
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 195.9221954345703,
+    "fwd_progress": 187.7332763671875,
+    "max_lat": 4.229912281036377
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 6.306235313415527,
+    "fwd_progress": -2.6484599113464355,
+    "max_lat": 0.21150898933410645
+   },
+   "mean_of_experts_lat": 5.114420771598816,
+   "mean_of_experts_fwd": 174.7930564880371,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 173.275146484375,
+     "fwd_progress": 163.6654052734375,
+     "max_lat": 4.7907819747924805
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 181.14772033691406,
+     "fwd_progress": 168.2989044189453,
+     "max_lat": 5.443382740020752
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 210.0706024169922,
+     "fwd_progress": 201.70523071289062,
+     "max_lat": 4.316158294677734
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 179.37786865234375,
+     "fwd_progress": 165.502685546875,
+     "max_lat": 5.907360076904297
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 195.9221954345703,
+     "fwd_progress": 187.7332763671875,
+     "max_lat": 4.229912281036377
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 6.306235313415527,
+     "fwd_progress": -2.6484599113464355,
+     "max_lat": 0.21150898933410645
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9917629957199097,
+    "kashiwa": 2.648060881682568e-09,
+    "shalun": 2.939722207884188e-07,
+    "unagoya": 0.008236836642026901
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 3,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 176.9503936767578,
+    "fwd_progress": 168.11004638671875,
+    "max_lat": 4.372927665710449
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 191.9109649658203,
+    "fwd_progress": 184.47303771972656,
+    "max_lat": 6.489527225494385
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 183.0680389404297,
+    "fwd_progress": 169.61459350585938,
+    "max_lat": 4.490560054779053
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 191.9109649658203,
+    "fwd_progress": 184.47303771972656,
+    "max_lat": 6.489527225494385
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 15.247146606445312,
+    "fwd_progress": -15.230734825134277,
+    "max_lat": 0.46340954303741455
+   },
+   "mean_of_experts_lat": 5.367689609527588,
+   "mean_of_experts_fwd": 177.62484741210938,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 176.9503936767578,
+     "fwd_progress": 168.11004638671875,
+     "max_lat": 4.372927665710449
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 185.25100708007812,
+     "fwd_progress": 172.96426391601562,
+     "max_lat": 5.398327827453613
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 207.44717407226562,
+     "fwd_progress": 199.81048583984375,
+     "max_lat": 7.208942890167236
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 183.0680389404297,
+     "fwd_progress": 169.61459350585938,
+     "max_lat": 4.490560054779053
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 191.9109649658203,
+     "fwd_progress": 184.47303771972656,
+     "max_lat": 6.489527225494385
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 15.247146606445312,
+     "fwd_progress": -15.230734825134277,
+     "max_lat": 0.46340954303741455
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9999934434890747,
+    "kashiwa": 8.089415248768717e-11,
+    "shalun": 7.930614387419155e-09,
+    "unagoya": 6.54330733595998e-06
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 4,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 173.20399475097656,
+    "fwd_progress": 164.96331787109375,
+    "max_lat": 14.107876777648926
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 155.5399627685547,
+    "fwd_progress": 149.8677978515625,
+    "max_lat": 3.8713388442993164
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 183.8510284423828,
+    "fwd_progress": 171.35513305664062,
+    "max_lat": 4.259100437164307
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 155.5399627685547,
+    "fwd_progress": 149.8677978515625,
+    "max_lat": 3.8713388442993164
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 28.14535140991211,
+    "fwd_progress": -28.060932159423828,
+    "max_lat": 2.0365796089172363
+   },
+   "mean_of_experts_lat": 9.459104657173157,
+   "mean_of_experts_fwd": 171.65963745117188,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 173.20399475097656,
+     "fwd_progress": 164.96331787109375,
+     "max_lat": 14.107876777648926
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 183.36045837402344,
+     "fwd_progress": 171.48443603515625,
+     "max_lat": 9.705059051513672
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 185.46334838867188,
+     "fwd_progress": 178.83566284179688,
+     "max_lat": 9.764382362365723
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 183.8510284423828,
+     "fwd_progress": 171.35513305664062,
+     "max_lat": 4.259100437164307
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 155.5399627685547,
+     "fwd_progress": 149.8677978515625,
+     "max_lat": 3.8713388442993164
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 28.14535140991211,
+     "fwd_progress": -28.060932159423828,
+     "max_lat": 2.0365796089172363
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9997928738594055,
+    "kashiwa": 1.455232045977084e-10,
+    "shalun": 2.0045236581722747e-08,
+    "unagoya": 0.00020716541621368378
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 5,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 181.94094848632812,
+    "fwd_progress": 172.17880249023438,
+    "max_lat": 5.305328369140625
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 186.6531524658203,
+    "fwd_progress": 178.3165283203125,
+    "max_lat": 15.27137565612793
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 185.0853729248047,
+    "fwd_progress": 171.333251953125,
+    "max_lat": 4.328864574432373
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 186.6531524658203,
+    "fwd_progress": 178.3165283203125,
+    "max_lat": 15.27137565612793
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 31.725656509399414,
+    "fwd_progress": -31.627595901489258,
+    "max_lat": 2.601574420928955
+   },
+   "mean_of_experts_lat": 7.889692068099976,
+   "mean_of_experts_fwd": 178.48268127441406,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 181.94094848632812,
+     "fwd_progress": 172.17880249023438,
+     "max_lat": 5.305328369140625
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 185.17657470703125,
+     "fwd_progress": 172.28067016601562,
+     "max_lat": 6.229753017425537
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 206.81573486328125,
+     "fwd_progress": 198.13800048828125,
+     "max_lat": 15.694822311401367
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 185.0853729248047,
+     "fwd_progress": 171.333251953125,
+     "max_lat": 4.328864574432373
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 186.6531524658203,
+     "fwd_progress": 178.3165283203125,
+     "max_lat": 15.27137565612793
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 31.725656509399414,
+     "fwd_progress": -31.627595901489258,
+     "max_lat": 2.601574420928955
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9881786704063416,
+    "kashiwa": 3.736414289079448e-09,
+    "shalun": 3.7432698718475876e-07,
+    "unagoya": 0.011820944957435131
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 6,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 173.7361297607422,
+    "fwd_progress": 161.09042358398438,
+    "max_lat": 4.190199851989746
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 184.25827026367188,
+    "fwd_progress": 177.25291442871094,
+    "max_lat": 8.118694305419922
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 173.7361297607422,
+    "fwd_progress": 161.09042358398438,
+    "max_lat": 4.190199851989746
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 184.25827026367188,
+    "fwd_progress": 177.25291442871094,
+    "max_lat": 8.118694305419922
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 8.36690616607666,
+    "fwd_progress": -8.348089218139648,
+    "max_lat": 0.2773115634918213
+   },
+   "mean_of_experts_lat": 5.689588189125061,
+   "mean_of_experts_fwd": 168.41083145141602,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 163.69049072265625,
+     "fwd_progress": 155.72621154785156,
+     "max_lat": 5.436935901641846
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 175.668701171875,
+     "fwd_progress": 163.81814575195312,
+     "max_lat": 5.11871337890625
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 200.26776123046875,
+     "fwd_progress": 193.008544921875,
+     "max_lat": 8.012503623962402
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 173.7361297607422,
+     "fwd_progress": 161.09042358398438,
+     "max_lat": 4.190199851989746
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 184.25827026367188,
+     "fwd_progress": 177.25291442871094,
+     "max_lat": 8.118694305419922
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 8.36690616607666,
+     "fwd_progress": -8.348089218139648,
+     "max_lat": 0.2773115634918213
+    }
+   },
+   "scr_probs": {
+    "hongo": 2.2243308383824044e-33,
+    "kashiwa": 2.0184991034117123e-23,
+    "shalun": 3.3267246206237185e-30,
+    "unagoya": 1.0
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 7,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 176.6890869140625,
+    "fwd_progress": 166.54698181152344,
+    "max_lat": 8.752660751342773
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 176.9232635498047,
+    "fwd_progress": 170.12429809570312,
+    "max_lat": 5.983501434326172
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 183.91932678222656,
+    "fwd_progress": 170.57640075683594,
+    "max_lat": 6.611873626708984
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 176.9232635498047,
+    "fwd_progress": 170.12429809570312,
+    "max_lat": 5.983501434326172
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 26.02715301513672,
+    "fwd_progress": -25.738712310791016,
+    "max_lat": 3.5368659496307373
+   },
+   "mean_of_experts_lat": 7.00435733795166,
+   "mean_of_experts_fwd": 175.56166458129883,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 176.6890869140625,
+     "fwd_progress": 166.54698181152344,
+     "max_lat": 8.752660751342773
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 184.78404235839844,
+     "fwd_progress": 172.23153686523438,
+     "max_lat": 5.104514122009277
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 200.377685546875,
+     "fwd_progress": 192.89173889160156,
+     "max_lat": 7.5483808517456055
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 183.91932678222656,
+     "fwd_progress": 170.57640075683594,
+     "max_lat": 6.611873626708984
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 176.9232635498047,
+     "fwd_progress": 170.12429809570312,
+     "max_lat": 5.983501434326172
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 26.02715301513672,
+     "fwd_progress": -25.738712310791016,
+     "max_lat": 3.5368659496307373
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9999954700469971,
+    "kashiwa": 3.538907708544592e-11,
+    "shalun": 7.99472221757469e-09,
+    "unagoya": 4.561105015454814e-06
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 8,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 180.4962158203125,
+    "fwd_progress": 170.0554962158203,
+    "max_lat": 12.04719352722168
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 194.51187133789062,
+    "fwd_progress": 185.92044067382812,
+    "max_lat": 16.235836029052734
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 184.37571716308594,
+    "fwd_progress": 170.56918334960938,
+    "max_lat": 4.302155494689941
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 194.51187133789062,
+    "fwd_progress": 185.92044067382812,
+    "max_lat": 16.235836029052734
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 15.498648643493652,
+    "fwd_progress": -15.469537734985352,
+    "max_lat": 0.8516048789024353
+   },
+   "mean_of_experts_lat": 10.559411525726318,
+   "mean_of_experts_fwd": 178.85391235351562,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 180.4962158203125,
+     "fwd_progress": 170.0554962158203,
+     "max_lat": 12.04719352722168
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 185.38577270507812,
+     "fwd_progress": 172.62159729003906,
+     "max_lat": 8.933484077453613
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 210.8491973876953,
+     "fwd_progress": 202.16937255859375,
+     "max_lat": 16.95481300354004
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 184.37571716308594,
+     "fwd_progress": 170.56918334960938,
+     "max_lat": 4.302155494689941
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 194.51187133789062,
+     "fwd_progress": 185.92044067382812,
+     "max_lat": 16.235836029052734
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 15.498648643493652,
+     "fwd_progress": -15.469537734985352,
+     "max_lat": 0.8516048789024353
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9999880790710449,
+    "kashiwa": 2.3188862288692214e-11,
+    "shalun": 3.813231064242473e-09,
+    "unagoya": 1.1962496500927955e-05
+   }
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 9,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 176.39601135253906,
+    "fwd_progress": 165.61720275878906,
+    "max_lat": 13.275622367858887
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 179.32904052734375,
+    "fwd_progress": 172.20892333984375,
+    "max_lat": 8.228859901428223
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 184.36378479003906,
+    "fwd_progress": 170.8620147705078,
+    "max_lat": 5.275419235229492
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 179.32904052734375,
+    "fwd_progress": 172.20892333984375,
+    "max_lat": 8.228859901428223
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 22.42037010192871,
+    "fwd_progress": -22.313121795654297,
+    "max_lat": 1.8168069124221802
+   },
+   "mean_of_experts_lat": 8.218552231788635,
+   "mean_of_experts_fwd": 175.7587661743164,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 176.39601135253906,
+     "fwd_progress": 165.61720275878906,
+     "max_lat": 13.275622367858887
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 185.07131958007812,
+     "fwd_progress": 172.60354614257812,
+     "max_lat": 5.199690341949463
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 201.66627502441406,
+     "fwd_progress": 193.95230102539062,
+     "max_lat": 9.1234769821167
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 184.36378479003906,
+     "fwd_progress": 170.8620147705078,
+     "max_lat": 5.275419235229492
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 179.32904052734375,
+     "fwd_progress": 172.20892333984375,
+     "max_lat": 8.228859901428223
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 22.42037010192871,
+     "fwd_progress": -22.313121795654297,
+     "max_lat": 1.8168069124221802
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9997914433479309,
+    "kashiwa": 1.1561172158502941e-10,
+    "shalun": 2.0312038273573307e-08,
+    "unagoya": 0.0002086102031171322
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 0,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 184.76876831054688,
+    "fwd_progress": 130.298583984375,
+    "max_lat": 98.83120727539062
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 157.2459259033203,
+    "fwd_progress": 100.0755844116211,
+    "max_lat": 95.22689819335938
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 184.76876831054688,
+    "fwd_progress": 130.298583984375,
+    "max_lat": 98.83120727539062
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 157.2459259033203,
+    "fwd_progress": 100.0755844116211,
+    "max_lat": 95.22689819335938
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 28.451812744140625,
+    "fwd_progress": -28.380714416503906,
+    "max_lat": 2.0228748321533203
+   },
+   "mean_of_experts_lat": 102.03185844421387,
+   "mean_of_experts_fwd": 106.91937923431396,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 138.82308959960938,
+     "fwd_progress": 29.946178436279297,
+     "max_lat": 102.22462463378906
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 202.36619567871094,
+     "fwd_progress": 144.1781768798828,
+     "max_lat": 105.60901641845703
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 177.2737274169922,
+     "fwd_progress": 123.25457763671875,
+     "max_lat": 101.46258544921875
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 184.76876831054688,
+     "fwd_progress": 130.298583984375,
+     "max_lat": 98.83120727539062
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 157.2459259033203,
+     "fwd_progress": 100.0755844116211,
+     "max_lat": 95.22689819335938
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 28.451812744140625,
+     "fwd_progress": -28.380714416503906,
+     "max_lat": 2.0228748321533203
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.02523074299097061,
+    "kashiwa": 6.835756266587723e-11,
+    "shalun": 4.151116783646103e-09,
+    "unagoya": 0.9747692942619324
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 1,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 177.48138427734375,
+    "fwd_progress": 168.39779663085938,
+    "max_lat": 4.362030506134033
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 193.31617736816406,
+    "fwd_progress": 184.69418334960938,
+    "max_lat": 13.286481857299805
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 182.67007446289062,
+    "fwd_progress": 169.30337524414062,
+    "max_lat": 4.461615562438965
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 193.31617736816406,
+    "fwd_progress": 184.69418334960938,
+    "max_lat": 13.286481857299805
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 14.201870918273926,
+    "fwd_progress": -14.187958717346191,
+    "max_lat": 0.3748135268688202
+   },
+   "mean_of_experts_lat": 6.992321729660034,
+   "mean_of_experts_fwd": 177.52803421020508,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 177.48138427734375,
+     "fwd_progress": 168.39779663085938,
+     "max_lat": 4.362030506134033
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 184.71539306640625,
+     "fwd_progress": 172.44029235839844,
+     "max_lat": 5.3633646965026855
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 208.6583251953125,
+     "fwd_progress": 199.97067260742188,
+     "max_lat": 13.782276153564453
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 182.67007446289062,
+     "fwd_progress": 169.30337524414062,
+     "max_lat": 4.461615562438965
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 193.31617736816406,
+     "fwd_progress": 184.69418334960938,
+     "max_lat": 13.286481857299805
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 14.201870918273926,
+     "fwd_progress": -14.187958717346191,
+     "max_lat": 0.3748135268688202
+    }
+   },
+   "scr_probs": {
+    "hongo": 1.0,
+    "kashiwa": 3.2819271982004313e-15,
+    "shalun": 5.119738725849199e-13,
+    "unagoya": 7.870427226608356e-11
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 2,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 172.7421875,
+    "fwd_progress": 137.69581604003906,
+    "max_lat": 62.2730598449707
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 184.53440856933594,
+    "fwd_progress": 159.4906463623047,
+    "max_lat": 62.67335510253906
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 175.59002685546875,
+    "fwd_progress": 157.32260131835938,
+    "max_lat": 30.712106704711914
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 184.53440856933594,
+    "fwd_progress": 159.4906463623047,
+    "max_lat": 62.67335510253906
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 26.40850830078125,
+    "fwd_progress": 19.13473892211914,
+    "max_lat": 12.578171730041504
+   },
+   "mean_of_experts_lat": 46.41733503341675,
+   "mean_of_experts_fwd": 158.70340728759766,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 172.7421875,
+     "fwd_progress": 137.69581604003906,
+     "max_lat": 62.2730598449707
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 177.4275360107422,
+     "fwd_progress": 159.07350158691406,
+     "max_lat": 36.01019287109375
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 201.44833374023438,
+     "fwd_progress": 180.72171020507812,
+     "max_lat": 56.673980712890625
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 175.59002685546875,
+     "fwd_progress": 157.32260131835938,
+     "max_lat": 30.712106704711914
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 184.53440856933594,
+     "fwd_progress": 159.4906463623047,
+     "max_lat": 62.67335510253906
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 26.40850830078125,
+     "fwd_progress": 19.13473892211914,
+     "max_lat": 12.578171730041504
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9992635846138,
+    "kashiwa": 2.3494681406551615e-14,
+    "shalun": 5.72371794058113e-12,
+    "unagoya": 0.0007364559569396079
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 3,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 179.5926513671875,
+    "fwd_progress": 156.52206420898438,
+    "max_lat": 45.55173873901367
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 168.8983917236328,
+    "fwd_progress": 136.8853302001953,
+    "max_lat": 68.87338256835938
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 179.5926513671875,
+    "fwd_progress": 156.52206420898438,
+    "max_lat": 45.55173873901367
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 168.8983917236328,
+    "fwd_progress": 136.8853302001953,
+    "max_lat": 68.87338256835938
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 18.428829193115234,
+    "fwd_progress": -18.060924530029297,
+    "max_lat": 3.6938440799713135
+   },
+   "mean_of_experts_lat": 73.70937156677246,
+   "mean_of_experts_fwd": 140.2876796722412,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 189.9547119140625,
+     "fwd_progress": 84.09598541259766,
+     "max_lat": 129.4113311767578
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 180.09751892089844,
+     "fwd_progress": 154.4730224609375,
+     "max_lat": 53.576358795166016
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 192.35659790039062,
+     "fwd_progress": 166.0596466064453,
+     "max_lat": 66.29805755615234
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 179.5926513671875,
+     "fwd_progress": 156.52206420898438,
+     "max_lat": 45.55173873901367
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 168.8983917236328,
+     "fwd_progress": 136.8853302001953,
+     "max_lat": 68.87338256835938
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 18.428829193115234,
+     "fwd_progress": -18.060924530029297,
+     "max_lat": 3.6938440799713135
+    }
+   },
+   "scr_probs": {
+    "hongo": 9.709214054964832e-07,
+    "kashiwa": 2.646333673028689e-13,
+    "shalun": 5.046008749731712e-12,
+    "unagoya": 0.9999990463256836
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 4,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 182.92413330078125,
+    "fwd_progress": 169.99407958984375,
+    "max_lat": 4.265847682952881
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 190.0265350341797,
+    "fwd_progress": 181.79652404785156,
+    "max_lat": 13.013981819152832
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 182.92413330078125,
+    "fwd_progress": 169.99407958984375,
+    "max_lat": 4.265847682952881
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 190.0265350341797,
+    "fwd_progress": 181.79652404785156,
+    "max_lat": 13.013981819152832
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 26.42390251159668,
+    "fwd_progress": -26.406356811523438,
+    "max_lat": 0.6187145709991455
+   },
+   "mean_of_experts_lat": 7.422558665275574,
+   "mean_of_experts_fwd": 178.24361038208008,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 178.85150146484375,
+     "fwd_progress": 170.10549926757812,
+     "max_lat": 4.457380294799805
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 184.55564880371094,
+     "fwd_progress": 172.55923461914062,
+     "max_lat": 6.749204635620117
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 208.76356506347656,
+     "fwd_progress": 200.3156280517578,
+     "max_lat": 14.217802047729492
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 182.92413330078125,
+     "fwd_progress": 169.99407958984375,
+     "max_lat": 4.265847682952881
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 190.0265350341797,
+     "fwd_progress": 181.79652404785156,
+     "max_lat": 13.013981819152832
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 26.42390251159668,
+     "fwd_progress": -26.406356811523438,
+     "max_lat": 0.6187145709991455
+    }
+   },
+   "scr_probs": {
+    "hongo": 3.689633740577847e-05,
+    "kashiwa": 1.8548580640181944e-12,
+    "shalun": 2.971120571793051e-11,
+    "unagoya": 0.9999630451202393
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 5,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 179.53839111328125,
+    "fwd_progress": 166.3792266845703,
+    "max_lat": 4.105797290802002
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 177.385009765625,
+    "fwd_progress": 169.81503295898438,
+    "max_lat": 14.311872482299805
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 179.53839111328125,
+    "fwd_progress": 166.3792266845703,
+    "max_lat": 4.105797290802002
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 177.385009765625,
+    "fwd_progress": 169.81503295898438,
+    "max_lat": 14.311872482299805
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 20.744718551635742,
+    "fwd_progress": -20.730255126953125,
+    "max_lat": 0.4808807671070099
+   },
+   "mean_of_experts_lat": 8.789925932884216,
+   "mean_of_experts_fwd": 172.487060546875,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 172.76507568359375,
+     "fwd_progress": 163.8995361328125,
+     "max_lat": 7.11968994140625
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 181.0389404296875,
+     "fwd_progress": 168.51724243164062,
+     "max_lat": 9.436932563781738
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 199.1171112060547,
+     "fwd_progress": 191.15223693847656,
+     "max_lat": 14.497283935546875
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 179.53839111328125,
+     "fwd_progress": 166.3792266845703,
+     "max_lat": 4.105797290802002
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 177.385009765625,
+     "fwd_progress": 169.81503295898438,
+     "max_lat": 14.311872482299805
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 20.744718551635742,
+     "fwd_progress": -20.730255126953125,
+     "max_lat": 0.4808807671070099
+    }
+   },
+   "scr_probs": {
+    "hongo": 3.6469264430181655e-14,
+    "kashiwa": 5.67012071111617e-15,
+    "shalun": 7.028501519397261e-16,
+    "unagoya": 1.0
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 6,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 180.3965606689453,
+    "fwd_progress": 47.407142639160156,
+    "max_lat": 134.37838745117188
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 170.1002197265625,
+    "fwd_progress": 159.0782470703125,
+    "max_lat": 28.371458053588867
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 180.99951171875,
+    "fwd_progress": 167.80223083496094,
+    "max_lat": 8.795324325561523
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 170.1002197265625,
+    "fwd_progress": 159.0782470703125,
+    "max_lat": 28.371458053588867
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 24.42792320251465,
+    "fwd_progress": -24.392887115478516,
+    "max_lat": 1.2198536396026611
+   },
+   "mean_of_experts_lat": 45.01219367980957,
+   "mean_of_experts_fwd": 142.68414115905762,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 180.3965606689453,
+     "fwd_progress": 47.407142639160156,
+     "max_lat": 134.37838745117188
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 182.6016845703125,
+     "fwd_progress": 169.95193481445312,
+     "max_lat": 12.038354873657227
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 195.4478759765625,
+     "fwd_progress": 185.57525634765625,
+     "max_lat": 24.836708068847656
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 180.99951171875,
+     "fwd_progress": 167.80223083496094,
+     "max_lat": 8.795324325561523
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 170.1002197265625,
+     "fwd_progress": 159.0782470703125,
+     "max_lat": 28.371458053588867
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 24.42792320251465,
+     "fwd_progress": -24.392887115478516,
+     "max_lat": 1.2198536396026611
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.999998927116394,
+    "kashiwa": 2.0894557920892246e-14,
+    "shalun": 5.747508372011545e-12,
+    "unagoya": 1.1033449709429988e-06
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 7,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 201.7162322998047,
+    "fwd_progress": 105.06214141845703,
+    "max_lat": 131.54818725585938
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 186.15103149414062,
+    "fwd_progress": 144.02789306640625,
+    "max_lat": 87.55461120605469
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 187.02676391601562,
+    "fwd_progress": 156.13705444335938,
+    "max_lat": 61.949928283691406
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 186.15103149414062,
+    "fwd_progress": 144.02789306640625,
+    "max_lat": 87.55461120605469
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 8.962777137756348,
+    "fwd_progress": -8.761096954345703,
+    "max_lat": 1.5853618383407593
+   },
+   "mean_of_experts_lat": 81.21882724761963,
+   "mean_of_experts_fwd": 149.6841220855713,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 201.7162322998047,
+     "fwd_progress": 105.06214141845703,
+     "max_lat": 131.54818725585938
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 188.15013122558594,
+     "fwd_progress": 164.63665771484375,
+     "max_lat": 51.59336471557617
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 205.24813842773438,
+     "fwd_progress": 172.900634765625,
+     "max_lat": 79.78382873535156
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 187.02676391601562,
+     "fwd_progress": 156.13705444335938,
+     "max_lat": 61.949928283691406
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 186.15103149414062,
+     "fwd_progress": 144.02789306640625,
+     "max_lat": 87.55461120605469
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 8.962777137756348,
+     "fwd_progress": -8.761096954345703,
+     "max_lat": 1.5853618383407593
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.7117151021957397,
+    "kashiwa": 1.225818058170347e-11,
+    "shalun": 2.657740028055855e-09,
+    "unagoya": 0.28828489780426025
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 8,
+   "scr_pick": "unagoya",
+   "scr_pick_metrics": {
+    "expert": "unagoya",
+    "path_len": 183.2779083251953,
+    "fwd_progress": 169.399169921875,
+    "max_lat": 9.530920028686523
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 186.3044891357422,
+    "fwd_progress": 179.4938201904297,
+    "max_lat": 3.111495018005371
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 183.2779083251953,
+    "fwd_progress": 169.399169921875,
+    "max_lat": 9.530920028686523
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 186.3044891357422,
+    "fwd_progress": 179.4938201904297,
+    "max_lat": 3.111495018005371
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 11.76453971862793,
+    "fwd_progress": -11.72738265991211,
+    "max_lat": 0.32637619972229004
+   },
+   "mean_of_experts_lat": 20.42375510931015,
+   "mean_of_experts_fwd": 174.08114624023438,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 184.2664794921875,
+     "fwd_progress": 158.28555297851562,
+     "max_lat": 63.68555450439453
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 184.55618286132812,
+     "fwd_progress": 171.9029541015625,
+     "max_lat": 5.380456447601318
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 204.09091186523438,
+     "fwd_progress": 196.73690795898438,
+     "max_lat": 3.0980894565582275
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 183.2779083251953,
+     "fwd_progress": 169.399169921875,
+     "max_lat": 9.530920028686523
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 186.3044891357422,
+     "fwd_progress": 179.4938201904297,
+     "max_lat": 3.111495018005371
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 11.76453971862793,
+     "fwd_progress": -11.72738265991211,
+     "max_lat": 0.32637619972229004
+    }
+   },
+   "scr_probs": {
+    "hongo": 3.984033547510535e-09,
+    "kashiwa": 1.379557953333846e-13,
+    "shalun": 5.844383137165732e-13,
+    "unagoya": 1.0
+   }
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 9,
+   "scr_pick": "hongo",
+   "scr_pick_metrics": {
+    "expert": "hongo",
+    "path_len": 185.42849731445312,
+    "fwd_progress": 56.43806457519531,
+    "max_lat": 138.56874084472656
+   },
+   "sces_pick": "shared_only",
+   "sces_pick_metrics": {
+    "expert": "shared_only",
+    "path_len": 163.50148010253906,
+    "fwd_progress": 123.60772705078125,
+    "max_lat": 76.58905792236328
+   },
+   "best_fixed_unagoya": {
+    "expert": "unagoya",
+    "path_len": 179.24063110351562,
+    "fwd_progress": 154.01577758789062,
+    "max_lat": 50.637901306152344
+   },
+   "shared_only": {
+    "expert": "shared_only",
+    "path_len": 163.50148010253906,
+    "fwd_progress": 123.60772705078125,
+    "max_lat": 76.58905792236328
+   },
+   "baseline_BC": {
+    "expert": "baseline",
+    "path_len": 34.18797302246094,
+    "fwd_progress": -34.13523864746094,
+    "max_lat": 1.9279778003692627
+   },
+   "mean_of_experts_lat": 78.62525081634521,
+   "mean_of_experts_fwd": 129.83105087280273,
+   "all_experts": {
+    "hongo": {
+     "expert": "hongo",
+     "path_len": 185.42849731445312,
+     "fwd_progress": 56.43806457519531,
+     "max_lat": 138.56874084472656
+    },
+    "kashiwa": {
+     "expert": "kashiwa",
+     "path_len": 182.5867919921875,
+     "fwd_progress": 158.16937255859375,
+     "max_lat": 52.29762649536133
+    },
+    "shalun": {
+     "expert": "shalun",
+     "path_len": 183.10205078125,
+     "fwd_progress": 150.70098876953125,
+     "max_lat": 72.99673461914062
+    },
+    "unagoya": {
+     "expert": "unagoya",
+     "path_len": 179.24063110351562,
+     "fwd_progress": 154.01577758789062,
+     "max_lat": 50.637901306152344
+    },
+    "shared_only": {
+     "expert": "shared_only",
+     "path_len": 163.50148010253906,
+     "fwd_progress": 123.60772705078125,
+     "max_lat": 76.58905792236328
+    },
+    "baseline": {
+     "expert": "baseline",
+     "path_len": 34.18797302246094,
+     "fwd_progress": -34.13523864746094,
+     "max_lat": 1.9279778003692627
+    }
+   },
+   "scr_probs": {
+    "hongo": 0.9999958276748657,
+    "kashiwa": 6.793433366009166e-18,
+    "shalun": 7.502837428760827e-15,
+    "unagoya": 4.20317428506678e-06
+   }
+  }
+ ],
+ "summary": {
+  "morikoro": {
+   "scr_pick_lat": [
+    63.34159169197083,
+    58.03028264386362,
+    10
+   ],
+   "sces_pick_lat": [
+    46.301259422302245,
+    35.274521733787466,
+    10
+   ],
+   "best_fixed_unagoya": [
+    31.884238719940186,
+    32.050139565139595,
+    10
+   ],
+   "shared_only": [
+    46.301259422302245,
+    35.274521733787466,
+    10
+   ],
+   "baseline_BC": [
+    2.4828868985176085,
+    3.6950298650312337,
+    10
+   ],
+   "mean_of_experts_lat": [
+    47.06433982253075,
+    0.0,
+    10
+   ],
+   "scr_pick_distribution": {
+    "hongo": 5,
+    "kashiwa": 0,
+    "shalun": 0,
+    "unagoya": 5
+   }
+  },
+  "aichi_hub_v2": {
+   "scr_pick_lat": [
+    4.514990448951721,
+    0.7910043924491214,
+    4
+   ],
+   "sces_pick_lat": [
+    14.261101007461548,
+    4.1339515651736,
+    4
+   ],
+   "best_fixed_unagoya": [
+    4.514990448951721,
+    0.7910043924491214,
+    4
+   ],
+   "shared_only": [
+    14.261101007461548,
+    4.1339515651736,
+    4
+   ],
+   "baseline_BC": [
+    0.4086760375648737,
+    0.35014970332876066,
+    4
+   ],
+   "mean_of_experts_lat": [
+    7.521426230669022,
+    0.0,
+    4
+   ],
+   "scr_pick_distribution": {
+    "hongo": 0,
+    "kashiwa": 0,
+    "shalun": 0,
+    "unagoya": 4
+   }
+  },
+  "ishio_dai": {
+   "scr_pick_lat": [
+    8.985943412780761,
+    4.189853034704607,
+    10
+   ],
+   "sces_pick_lat": [
+    7.720581984519958,
+    4.567679016076811,
+    10
+   ],
+   "best_fixed_unagoya": [
+    4.816656398773193,
+    0.8372751276782224,
+    10
+   ],
+   "shared_only": [
+    7.720581984519958,
+    4.567679016076811,
+    10
+   ],
+   "baseline_BC": [
+    1.5650972545146942,
+    1.1353608401029291,
+    10
+   ],
+   "mean_of_experts_lat": [
+    7.662183678150177,
+    0.0,
+    10
+   ],
+   "scr_pick_distribution": {
+    "hongo": 9,
+    "kashiwa": 0,
+    "shalun": 0,
+    "unagoya": 1
+   }
+  }
+ }
+}

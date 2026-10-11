@@ -1,0 +1,186 @@
+{
+ "description": "E8 (rebuttal): expert-selection test on a held-out region whose geographically\nnearest training ODD is NOT ODD-D — Nishishinjuku (central Tokyo).\n\nGeographic distances: Shinjuku->hongo ~6 km, ->kashiwa ~27 km, ->unagoya ~260 km,\n->shalun ~2100 km => the static geographic rule selects HONGO here.\nQuestion (4EkA minor / iZGU W3+Q2): is the nearest expert also the best fixed\nexpert when the rule must switch away from ODD-D?\n\nCaveat (stated in rebuttal): this region's data contributed to the SHARED module\nduring multi-domain training (it is the excluded 5th expert's ODD), so this tests\nexpert SELECTION only, not held-out adaptation. All four expert configs share the\nsame shared module, so the between-expert comparison is unaffected.\n",
+ "rows": [
+  {
+   "ego_idx": 0,
+   "lanelet_id": 334,
+   "hongo": 91.567138671875,
+   "hongo_fwd": 111.48249053955078,
+   "kashiwa": 15.188051223754883,
+   "kashiwa_fwd": 168.614013671875,
+   "shalun": 31.152969360351562,
+   "shalun_fwd": 194.2510223388672,
+   "unagoya": 10.976103782653809,
+   "unagoya_fwd": 168.19174194335938,
+   "shared": 27.14893341064453,
+   "shared_fwd": 177.21771240234375
+  },
+  {
+   "ego_idx": 1,
+   "lanelet_id": 574,
+   "hongo": 49.36752700805664,
+   "hongo_fwd": 145.24356079101562,
+   "kashiwa": 11.231954574584961,
+   "kashiwa_fwd": 170.31015014648438,
+   "shalun": 29.33669662475586,
+   "shalun_fwd": 186.63632202148438,
+   "unagoya": 4.286036968231201,
+   "unagoya_fwd": 169.6534881591797,
+   "shared": 30.35213279724121,
+   "shared_fwd": 167.50186157226562
+  },
+  {
+   "ego_idx": 2,
+   "lanelet_id": 3002058,
+   "hongo": 28.83591079711914,
+   "hongo_fwd": 147.5176239013672,
+   "kashiwa": 5.3999857902526855,
+   "kashiwa_fwd": 161.77359008789062,
+   "shalun": 2.668187141418457,
+   "shalun_fwd": 187.08969116210938,
+   "unagoya": 10.533543586730957,
+   "unagoya_fwd": 157.83197021484375,
+   "shared": 2.96104097366333,
+   "shared_fwd": 168.50491333007812
+  },
+  {
+   "ego_idx": 3,
+   "lanelet_id": 429,
+   "hongo": 94.53197479248047,
+   "hongo_fwd": 102.81352233886719,
+   "kashiwa": 14.993287086486816,
+   "kashiwa_fwd": 171.83680725097656,
+   "shalun": 30.211496353149414,
+   "shalun_fwd": 192.01048278808594,
+   "unagoya": 22.599788665771484,
+   "unagoya_fwd": 169.53009033203125,
+   "shared": 34.67595672607422,
+   "shared_fwd": 175.88946533203125
+  },
+  {
+   "ego_idx": 4,
+   "lanelet_id": 3002116,
+   "hongo": 10.438408851623535,
+   "hongo_fwd": 168.98849487304688,
+   "kashiwa": 5.43471097946167,
+   "kashiwa_fwd": 170.90072631835938,
+   "shalun": 2.6695797443389893,
+   "shalun_fwd": 201.09353637695312,
+   "unagoya": 6.0677571296691895,
+   "unagoya_fwd": 168.5376434326172,
+   "shared": 2.540074586868286,
+   "shared_fwd": 188.33030700683594
+  },
+  {
+   "ego_idx": 5,
+   "lanelet_id": 141,
+   "hongo": 4.188565731048584,
+   "hongo_fwd": 165.9495849609375,
+   "kashiwa": 5.395881652832031,
+   "kashiwa_fwd": 169.66456604003906,
+   "shalun": 3.0654213428497314,
+   "shalun_fwd": 200.399658203125,
+   "unagoya": 4.445598125457764,
+   "unagoya_fwd": 167.836669921875,
+   "shared": 2.9213972091674805,
+   "shared_fwd": 186.7003936767578
+  },
+  {
+   "ego_idx": 6,
+   "lanelet_id": 152,
+   "hongo": 4.201334476470947,
+   "hongo_fwd": 161.52146911621094,
+   "kashiwa": 5.380847454071045,
+   "kashiwa_fwd": 165.4873504638672,
+   "shalun": 3.040130138397217,
+   "shalun_fwd": 199.24331665039062,
+   "unagoya": 4.397957801818848,
+   "unagoya_fwd": 163.4330596923828,
+   "shared": 3.688002109527588,
+   "shared_fwd": 185.31259155273438
+  },
+  {
+   "ego_idx": 7,
+   "lanelet_id": 235,
+   "hongo": 4.435304641723633,
+   "hongo_fwd": 168.66098022460938,
+   "kashiwa": 5.618085861206055,
+   "kashiwa_fwd": 171.69212341308594,
+   "shalun": 3.3764190673828125,
+   "shalun_fwd": 202.91099548339844,
+   "unagoya": 4.704041957855225,
+   "unagoya_fwd": 168.14942932128906,
+   "shared": 2.8543293476104736,
+   "shared_fwd": 188.96041870117188
+  },
+  {
+   "ego_idx": 8,
+   "lanelet_id": 424,
+   "hongo": 92.73402404785156,
+   "hongo_fwd": 108.25205993652344,
+   "kashiwa": 6.815789222717285,
+   "kashiwa_fwd": 169.47879028320312,
+   "shalun": 17.958576202392578,
+   "shalun_fwd": 193.27960205078125,
+   "unagoya": 14.14207935333252,
+   "unagoya_fwd": 167.03070068359375,
+   "shared": 23.46723175048828,
+   "shared_fwd": 178.75115966796875
+  },
+  {
+   "ego_idx": 9,
+   "lanelet_id": 3012657,
+   "hongo": 5.94275426864624,
+   "hongo_fwd": 167.53713989257812,
+   "kashiwa": 10.670591354370117,
+   "kashiwa_fwd": 169.01052856445312,
+   "shalun": 16.20820426940918,
+   "shalun_fwd": 193.98880004882812,
+   "unagoya": 4.390025615692139,
+   "unagoya_fwd": 167.4608612060547,
+   "shared": 15.349609375,
+   "shared_fwd": 175.90602111816406
+  }
+ ],
+ "stats": {
+  "hongo": {
+   "mean": 38.62429432868957,
+   "std": 40.096937592274514,
+   "n": 10
+  },
+  "kashiwa": {
+   "mean": 8.612918519973755,
+   "std": 4.061377520915788,
+   "n": 10
+  },
+  "shalun": {
+   "mean": 13.96876802444458,
+   "std": 12.570338137342294,
+   "n": 10
+  },
+  "unagoya": {
+   "mean": 8.654293298721313,
+   "std": 6.045244472188708,
+   "n": 10
+  },
+  "shared": {
+   "mean": 14.59587082862854,
+   "std": 13.174758723805805,
+   "n": 10
+  }
+ },
+ "oracle_picks": [
+  "unagoya",
+  "unagoya",
+  "shalun",
+  "kashiwa",
+  "shalun",
+  "shalun",
+  "shalun",
+  "shalun",
+  "kashiwa",
+  "unagoya"
+ ],
+ "best_fixed": "kashiwa",
+ "static_rule_pick": "hongo"
+}

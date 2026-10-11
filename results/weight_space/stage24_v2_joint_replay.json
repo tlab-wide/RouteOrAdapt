@@ -1,0 +1,88 @@
+{
+ "description": "Stage 24 v2: joint replay with DISJOINT train/eval Aichi split (seed=7)",
+ "mix_ratio": "20 aichi : 200 prod",
+ "n_opt_steps": 500,
+ "n_train_params": 862048,
+ "train_seed": 42,
+ "eval_seed": 7,
+ "pre_aichi": {
+  "aichi_hub_v2": {
+   "mean": 14.261098861694336,
+   "std": 4.133954540642014,
+   "n": 4
+  },
+  "ishio_dai": {
+   "mean": 28.974798917770386,
+   "std": 48.058239744746174,
+   "n": 10
+  },
+  "morikoro": {
+   "mean": 31.173885154724122,
+   "std": 19.21674359138954,
+   "n": 10
+  }
+ },
+ "post_aichi": {
+  "aichi_hub_v2": {
+   "mean": 4.70438951253891,
+   "std": 1.81679231075931,
+   "n": 4
+  },
+  "ishio_dai": {
+   "mean": 27.408422803878786,
+   "std": 49.86846949845383,
+   "n": 10
+  },
+  "morikoro": {
+   "mean": 14.169149827957153,
+   "std": 9.285148272956777,
+   "n": 10
+  }
+ },
+ "pre_prod": {
+  "hongo": {
+   "n": 10,
+   "progress_mean": 179.33851470947266,
+   "route_dev_mean": 10.438695001602174
+  },
+  "kashiwa": {
+   "n": 10,
+   "progress_mean": 190.8059295654297,
+   "route_dev_mean": 14.082366037368775
+  },
+  "shalun": {
+   "n": 10,
+   "progress_mean": 217.24073638916016,
+   "route_dev_mean": 0.0
+  },
+  "unagoya": {
+   "n": 10,
+   "progress_mean": 186.18948822021486,
+   "route_dev_mean": 16.102416706085204
+  }
+ },
+ "post_prod": {
+  "hongo": {
+   "n": 10,
+   "progress_mean": 176.45552825927734,
+   "route_dev_mean": 10.679627346992493
+  },
+  "kashiwa": {
+   "n": 10,
+   "progress_mean": 194.7231201171875,
+   "route_dev_mean": 14.399115800857544
+  },
+  "shalun": {
+   "n": 10,
+   "progress_mean": 205.65882873535156,
+   "route_dev_mean": 0.0
+  },
+  "unagoya": {
+   "n": 10,
+   "progress_mean": 192.02989501953124,
+   "route_dev_mean": 15.507055282592773
+  }
+ },
+ "forgetting_sum_route_dev_m": -0.037679314613342285,
+ "forgetting_sum_progress_m": -4.707296752929722
+}

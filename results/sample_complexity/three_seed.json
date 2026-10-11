@@ -1,0 +1,612 @@
+{
+ "seeds": [
+  {
+   "seed": 42,
+   "n_aichi_sweep": [
+    5,
+    10,
+    20,
+    40
+   ],
+   "rows": [
+    {
+     "n_aichi": 5,
+     "fleet_mean": 5.488714325428009,
+     "sum_route_dev": 42.17061674594879,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 3.0323336720466614,
+       "std": 0.5813588024015423,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 3.527353882789612,
+       "std": 2.8132256593954645,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 9.906455421447754,
+       "std": 6.751579166045907,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 180.37911987304688,
+       "route_dev_mean": 11.078897213935852
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 198.99198455810546,
+       "route_dev_mean": 15.599895191192626
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 214.61233367919922,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 188.7727066040039,
+       "route_dev_mean": 15.491824340820312
+      }
+     },
+     "elapsed_s": 280.9636912345886
+    },
+    {
+     "n_aichi": 10,
+     "fleet_mean": 5.943916098276774,
+     "sum_route_dev": 42.596080493927005,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 4.64743709564209,
+       "std": 1.5955474572952486,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 3.288384461402893,
+       "std": 2.473376181933977,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 9.89592673778534,
+       "std": 6.696897365412786,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 178.9407501220703,
+       "route_dev_mean": 10.809454584121704
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 200.57082977294922,
+       "route_dev_mean": 15.37676453590393
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 209.12787170410155,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 195.07296295166014,
+       "route_dev_mean": 16.409861373901368
+      }
+     },
+     "elapsed_s": 277.854745388031
+    },
+    {
+     "n_aichi": 20,
+     "fleet_mean": 4.779988046487173,
+     "sum_route_dev": 40.589559888839716,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 3.700162708759308,
+       "std": 0.9746207771992462,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 3.1338547706604003,
+       "std": 2.1458986997195875,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 7.505946660041809,
+       "std": 4.571219130792402,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 179.13018646240235,
+       "route_dev_mean": 10.09954104423523
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 196.84448852539063,
+       "route_dev_mean": 14.773274230957032
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 204.66287384033203,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 193.24973754882814,
+       "route_dev_mean": 15.71674461364746
+      }
+     },
+     "elapsed_s": 275.2472023963928
+    },
+    {
+     "n_aichi": 40,
+     "fleet_mean": 4.4545205195744835,
+     "sum_route_dev": 41.84454493522644,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 2.7874948978424072,
+       "std": 0.24829662737152008,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 4.321719336509704,
+       "std": 2.9277233353081273,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 6.254347324371338,
+       "std": 3.073278663069998,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 178.96819458007812,
+       "route_dev_mean": 10.200870704650878
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 198.36032409667968,
+       "route_dev_mean": 15.75928292274475
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 203.55691986083986,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 191.91643981933595,
+       "route_dev_mean": 15.88439130783081
+      }
+     },
+     "elapsed_s": 270.8679451942444
+    }
+   ]
+  },
+  {
+   "seed": 43,
+   "n_aichi_sweep": [
+    5,
+    10,
+    20,
+    40
+   ],
+   "rows": [
+    {
+     "n_aichi": 5,
+     "fleet_mean": 15.481924271583557,
+     "sum_route_dev": 43.35317943096161,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 2.6537798643112183,
+       "std": 0.5093981038772177,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 3.572322130203247,
+       "std": 1.0301780850171578,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 40.2196708202362,
+       "std": 39.987331165648165,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 183.43118133544922,
+       "route_dev_mean": 11.192374968528748
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 197.33300170898437,
+       "route_dev_mean": 16.171248149871825
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 201.56972961425782,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 189.1237319946289,
+       "route_dev_mean": 15.989556312561035
+      }
+     },
+     "elapsed_s": 279.6950924396515
+    },
+    {
+     "n_aichi": 10,
+     "fleet_mean": 17.774850221474967,
+     "sum_route_dev": 41.0155946969986,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 4.350930035114288,
+       "std": 1.5835698736305093,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 2.8782709360122682,
+       "std": 0.6140078871847696,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 46.09534969329834,
+       "std": 34.593117184447486,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 171.3608825683594,
+       "route_dev_mean": 11.162751317024231
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 195.08105010986327,
+       "route_dev_mean": 14.548161029815674
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 213.1235565185547,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 184.43314514160156,
+       "route_dev_mean": 15.304682350158691
+      }
+     },
+     "elapsed_s": 278.4167511463165
+    },
+    {
+     "n_aichi": 20,
+     "fleet_mean": 7.108188752333323,
+     "sum_route_dev": 42.59298663139343,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 3.4063276648521423,
+       "std": 0.73853094977039,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 2.6835318326950075,
+       "std": 0.45445578810976067,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 15.23470675945282,
+       "std": 17.976977140984722,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 175.37032318115234,
+       "route_dev_mean": 11.195689296722412
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 194.4206985473633,
+       "route_dev_mean": 14.591775941848756
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 208.64823150634766,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 197.44974822998046,
+       "route_dev_mean": 16.805521392822264
+      }
+     },
+     "elapsed_s": 275.76945972442627
+    },
+    {
+     "n_aichi": 40,
+     "fleet_mean": 6.308235569794973,
+     "sum_route_dev": 41.100909781456,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 2.5080707669258118,
+       "std": 0.03829335404249782,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 3.065029811859131,
+       "std": 0.891245852263688,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 13.351606130599976,
+       "std": 14.415316013671806,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 179.18794708251954,
+       "route_dev_mean": 10.433780932426453
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 197.62889251708984,
+       "route_dev_mean": 15.485217666625976
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 205.8237075805664,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 187.74330139160156,
+       "route_dev_mean": 15.181911182403564
+      }
+     },
+     "elapsed_s": 270.97600293159485
+    }
+   ]
+  },
+  {
+   "seed": 44,
+   "n_aichi_sweep": [
+    5,
+    10,
+    20,
+    40
+   ],
+   "rows": [
+    {
+     "n_aichi": 5,
+     "fleet_mean": 8.398842902978261,
+     "sum_route_dev": 44.03119506835938,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 3.0766754746437073,
+       "std": 0.6330249476936582,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 3.232150173187256,
+       "std": 1.3602760375674154,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 18.88770306110382,
+       "std": 33.72595003569174,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 182.0753936767578,
+       "route_dev_mean": 11.437758445739746
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 197.0221374511719,
+       "route_dev_mean": 15.58774356842041
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 206.62539672851562,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 194.30194854736328,
+       "route_dev_mean": 17.00569305419922
+      }
+     },
+     "elapsed_s": 279.60929441452026
+    },
+    {
+     "n_aichi": 10,
+     "fleet_mean": 6.712254563967387,
+     "sum_route_dev": 42.90176575183868,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 2.585017442703247,
+       "std": 0.10864506238613558,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 3.5108848333358766,
+       "std": 0.8652284157899781,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 14.040861415863038,
+       "std": 23.455410678837872,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 180.83502502441405,
+       "route_dev_mean": 10.577629828453064
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 203.15064544677733,
+       "route_dev_mean": 15.827973222732544
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 211.2572250366211,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 195.00656127929688,
+       "route_dev_mean": 16.496162700653077
+      }
+     },
+     "elapsed_s": 278.29016041755676
+    },
+    {
+     "n_aichi": 20,
+     "fleet_mean": 6.626157653331757,
+     "sum_route_dev": 40.347267436981205,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 3.6645331978797913,
+       "std": 1.7193775574373231,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 6.5134645938873295,
+       "std": 2.1588630564192637,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 9.700475168228149,
+       "std": 12.546151785625007,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 175.4409393310547,
+       "route_dev_mean": 10.819968271255494
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 189.82574768066405,
+       "route_dev_mean": 14.169046545028687
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 203.48946075439454,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 187.0009796142578,
+       "route_dev_mean": 15.358252620697021
+      }
+     },
+     "elapsed_s": 275.9176607131958
+    },
+    {
+     "n_aichi": 40,
+     "fleet_mean": 6.260522361596425,
+     "sum_route_dev": 43.20739855766296,
+     "post_aichi": {
+      "aichi_hub_v2": {
+       "mean": 2.881416976451874,
+       "std": 0.11389274631379588,
+       "n": 4
+      },
+      "ishio_dai": {
+       "mean": 3.172829008102417,
+       "std": 0.7065255091690296,
+       "n": 10
+      },
+      "morikoro": {
+       "mean": 12.727321100234985,
+       "std": 23.08615808593431,
+       "n": 10
+      }
+     },
+     "post_prod": {
+      "hongo": {
+       "n": 10,
+       "progress_mean": 180.1796646118164,
+       "route_dev_mean": 10.865098571777343
+      },
+      "kashiwa": {
+       "n": 10,
+       "progress_mean": 198.93082733154296,
+       "route_dev_mean": 15.606684160232543
+      },
+      "shalun": {
+       "n": 10,
+       "progress_mean": 216.53049011230468,
+       "route_dev_mean": 0.0
+      },
+      "unagoya": {
+       "n": 10,
+       "progress_mean": 196.9061309814453,
+       "route_dev_mean": 16.735615825653078
+      }
+     },
+     "elapsed_s": 271.5966558456421
+    }
+   ]
+  }
+ ],
+ "summary": [
+  {
+   "n_aichi": 5,
+   "fleet_mean": 9.789827166663274,
+   "fleet_std": 5.139765478438685,
+   "sum_route_dev_mean": 43.18499708175659,
+   "sum_route_dev_std": 0.9416219519500059,
+   "n_seeds": 3
+  },
+  {
+   "n_aichi": 10,
+   "fleet_mean": 10.143673627906376,
+   "fleet_std": 6.6199492559336734,
+   "sum_route_dev_mean": 42.17114698092143,
+   "sum_route_dev_std": 1.012342175297258,
+   "n_seeds": 3
+  },
+  {
+   "n_aichi": 20,
+   "fleet_mean": 6.171444817384084,
+   "fleet_std": 1.2289029473710726,
+   "sum_route_dev_mean": 41.176604652404784,
+   "sum_route_dev_std": 1.2325907028936034,
+   "n_seeds": 3
+  },
+  {
+   "n_aichi": 40,
+   "fleet_mean": 5.674426150321961,
+   "fleet_std": 1.0567385904310485,
+   "sum_route_dev_mean": 42.05095109144847,
+   "sum_route_dev_std": 1.068305371635959,
+   "n_seeds": 3
+  }
+ ],
+ "elapsed_min": 55.29715674320857
+}

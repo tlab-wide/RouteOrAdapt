@@ -1,0 +1,232 @@
+{
+ "description": "Stage 30: Greedy Soup baseline (Wortsman 2022) on 4 per-ODD experts",
+ "eval_seed": 7,
+ "train_seed": 42,
+ "n_eval_scenes": 24,
+ "experts_order": [
+  "hongo",
+  "kashiwa",
+  "shalun",
+  "unagoya"
+ ],
+ "per_expert_alone": {
+  "hongo": {
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 5.985885143280029,
+     "std": 2.0870676373595614,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 39.06182518005371,
+     "std": 63.569454843996034,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 55.588036727905276,
+     "std": 39.704275718363874,
+     "n": 10
+    }
+   },
+   "fleet_mean": 33.54524901707967,
+   "n_skip": 0
+  },
+  "kashiwa": {
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 5.981253743171692,
+     "std": 1.0752200386641348,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 31.517534160614012,
+     "std": 54.4499962605807,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 22.90457663536072,
+     "std": 18.822047307646297,
+     "n": 10
+    }
+   },
+   "fleet_mean": 20.13445484638214,
+   "n_skip": 0
+  },
+  "shalun": {
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 13.603579998016357,
+     "std": 3.5558775254092962,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 31.528539991378786,
+     "std": 49.67589435869127,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 30.631341171264648,
+     "std": 18.82972652182183,
+     "n": 10
+    }
+   },
+   "fleet_mean": 25.254487053553262,
+   "n_skip": 0
+  },
+  "unagoya": {
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 4.514991044998169,
+     "std": 0.7910037214677802,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 31.577484941482545,
+     "std": 54.862274319961074,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 17.482535219192506,
+     "std": 15.153744399352933,
+     "n": 10
+    }
+   },
+   "fleet_mean": 17.85833706855774,
+   "n_skip": 0
+  }
+ },
+ "greedy_log": [
+  {
+   "action": "init_with_best",
+   "soup": [
+    "unagoya"
+   ],
+   "fleet_mean": 17.85833706855774
+  },
+  {
+   "candidate": "kashiwa",
+   "trial_soup": [
+    "unagoya",
+    "kashiwa"
+   ],
+   "trial_fleet": 18.78389261563619,
+   "baseline_fleet": 17.85833706855774,
+   "accepted": false,
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 4.618145942687988,
+     "std": 0.08917053733059671,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 31.80231065750122,
+     "std": 55.77625573714187,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 19.93122124671936,
+     "std": 16.89073241574528,
+     "n": 10
+    }
+   }
+  },
+  {
+   "candidate": "shalun",
+   "trial_soup": [
+    "unagoya",
+    "shalun"
+   ],
+   "trial_fleet": 18.995736650625865,
+   "baseline_fleet": 17.85833706855774,
+   "accepted": false,
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 4.792580783367157,
+     "std": 1.7938797114116671,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 29.895370221138002,
+     "std": 53.87097342057588,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 22.299258947372437,
+     "std": 17.689490454510196,
+     "n": 10
+    }
+   }
+  },
+  {
+   "candidate": "hongo",
+   "trial_soup": [
+    "unagoya",
+    "hongo"
+   ],
+   "trial_fleet": 23.000634380181634,
+   "baseline_fleet": 17.85833706855774,
+   "accepted": false,
+   "per_map": {
+    "aichi_hub_v2": {
+     "mean": 3.793123185634613,
+     "std": 0.4935885009918247,
+     "n": 4
+    },
+    "ishio_dai": {
+     "mean": 34.119871497154236,
+     "std": 61.167327081593065,
+     "n": 10
+    },
+    "morikoro": {
+     "mean": 31.08890845775604,
+     "std": 29.575761107343805,
+     "n": 10
+    }
+   }
+  }
+ ],
+ "final_soup": {
+  "experts": [
+   "unagoya"
+  ],
+  "fleet_mean": 17.85833706855774,
+  "per_map": {
+   "aichi_hub_v2": {
+    "mean": 4.514991044998169,
+    "std": 0.7910037214677802,
+    "n": 4
+   },
+   "ishio_dai": {
+    "mean": 31.577484941482545,
+    "std": 54.862274319961074,
+    "n": 10
+   },
+   "morikoro": {
+    "mean": 17.482535219192506,
+    "std": 15.153744399352933,
+    "n": 10
+   }
+  },
+  "n_skip": 0
+ },
+ "uniform_soup_all4": {
+  "fleet_mean": 21.810945157210032,
+  "per_map": {
+   "aichi_hub_v2": {
+    "mean": 4.926750123500824,
+    "std": 1.740593298886487,
+    "n": 4
+   },
+   "ishio_dai": {
+    "mean": 32.90912437438965,
+    "std": 59.658713739975674,
+    "n": 10
+   },
+   "morikoro": {
+    "mean": 27.596960973739623,
+    "std": 24.34193418970473,
+    "n": 10
+   }
+  }
+ }
+}

@@ -1,0 +1,372 @@
+{
+ "description": "Reward-based Selector: argmax_e R(traj_e) over 4 experts × 24 Aichi scenes",
+ "n_scenes": 24,
+ "n_experts": 4,
+ "routing_acc_vs_oracle": 0.125,
+ "static_rule_acc_vs_oracle": 0.6666666666666666,
+ "induced_offset_m": 29.814162979523342,
+ "oracle_offset_m": 15.148854523897171,
+ "static_offset_m": 16.04453804095586,
+ "rows": [
+  {
+   "map": "aichi_hub_v2",
+   "ego_idx": 0,
+   "rewards": {
+    "hongo": 184.8421630859375,
+    "kashiwa": 213.03219604492188,
+    "shalun": 252.52813720703125,
+    "unagoya": 206.08103942871094
+   },
+   "oracle": "hongo",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 8.979732513427734,
+   "max_lat_oracle": 4.378171920776367,
+   "max_lat_static_unagoya": 5.693674564361572
+  },
+  {
+   "map": "aichi_hub_v2",
+   "ego_idx": 1,
+   "rewards": {
+    "hongo": 121.36088562011719,
+    "kashiwa": 146.31680297851562,
+    "shalun": 171.57029724121094,
+    "unagoya": 143.343017578125
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 15.89708423614502,
+   "max_lat_oracle": 4.0153985023498535,
+   "max_lat_static_unagoya": 4.0153985023498535
+  },
+  {
+   "map": "aichi_hub_v2",
+   "ego_idx": 2,
+   "rewards": {
+    "hongo": 147.9476776123047,
+    "kashiwa": 167.0473175048828,
+    "shalun": 196.67398071289062,
+    "unagoya": 159.8391571044922
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 16.839656829833984,
+   "max_lat_oracle": 4.237057685852051,
+   "max_lat_static_unagoya": 4.237057685852051
+  },
+  {
+   "map": "aichi_hub_v2",
+   "ego_idx": 3,
+   "rewards": {
+    "hongo": 104.95378112792969,
+    "kashiwa": 133.64703369140625,
+    "shalun": 158.65618896484375,
+    "unagoya": 123.59588623046875
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 12.697848320007324,
+   "max_lat_oracle": 4.113831043243408,
+   "max_lat_static_unagoya": 4.113831043243408
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 0,
+   "rewards": {
+    "hongo": 327.2343444824219,
+    "kashiwa": 339.3033142089844,
+    "shalun": 356.57489013671875,
+    "unagoya": 332.5235595703125
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 5.080665588378906,
+   "max_lat_oracle": 4.518222332000732,
+   "max_lat_static_unagoya": 4.518222332000732
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 1,
+   "rewards": {
+    "hongo": 302.4888916015625,
+    "kashiwa": 322.77508544921875,
+    "shalun": 331.4847717285156,
+    "unagoya": 326.9755554199219
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 13.79658317565918,
+   "max_lat_oracle": 4.282808303833008,
+   "max_lat_static_unagoya": 4.282808303833008
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 2,
+   "rewards": {
+    "hongo": 259.8041687011719,
+    "kashiwa": 280.8806457519531,
+    "shalun": 310.66455078125,
+    "unagoya": 274.9294738769531
+   },
+   "oracle": "shalun",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 4.316158294677734,
+   "max_lat_oracle": 4.316158294677734,
+   "max_lat_static_unagoya": 5.907360076904297
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 3,
+   "rewards": {
+    "hongo": 317.4985656738281,
+    "kashiwa": 334.6190490722656,
+    "shalun": 349.8181457519531,
+    "unagoya": 327.5921325683594
+   },
+   "oracle": "hongo",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 7.208942890167236,
+   "max_lat_oracle": 4.372927665710449,
+   "max_lat_static_unagoya": 4.490560054779053
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 4,
+   "rewards": {
+    "hongo": 238.12612915039062,
+    "kashiwa": 245.14944458007812,
+    "shalun": 237.8848876953125,
+    "unagoya": 247.69216918945312
+   },
+   "oracle": "unagoya",
+   "picked_reward": "unagoya",
+   "max_lat_under_picked": 4.259100437164307,
+   "max_lat_oracle": 4.259100437164307,
+   "max_lat_static_unagoya": 4.259100437164307
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 5,
+   "rewards": {
+    "hongo": 274.8667907714844,
+    "kashiwa": 281.72479248046875,
+    "shalun": 313.1276550292969,
+    "unagoya": 279.6045837402344
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 15.694822311401367,
+   "max_lat_oracle": 4.328864574432373,
+   "max_lat_static_unagoya": 4.328864574432373
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 6,
+   "rewards": {
+    "hongo": 234.07566833496094,
+    "kashiwa": 250.02561950683594,
+    "shalun": 291.2972717285156,
+    "unagoya": 246.6482391357422
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 8.012503623962402,
+   "max_lat_oracle": 4.190199851989746,
+   "max_lat_static_unagoya": 4.190199851989746
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 7,
+   "rewards": {
+    "hongo": 297.58477783203125,
+    "kashiwa": 297.8208312988281,
+    "shalun": 315.76055908203125,
+    "unagoya": 303.37518310546875
+   },
+   "oracle": "kashiwa",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 7.5483808517456055,
+   "max_lat_oracle": 5.104514122009277,
+   "max_lat_static_unagoya": 6.611873626708984
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 8,
+   "rewards": {
+    "hongo": 318.5479736328125,
+    "kashiwa": 334.83380126953125,
+    "shalun": 374.144775390625,
+    "unagoya": 331.8339538574219
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 16.95481300354004,
+   "max_lat_oracle": 4.302155494689941,
+   "max_lat_static_unagoya": 4.302155494689941
+  },
+  {
+   "map": "ishio_dai",
+   "ego_idx": 9,
+   "rewards": {
+    "hongo": 280.65753173828125,
+    "kashiwa": 282.048583984375,
+    "shalun": 308.5607604980469,
+    "unagoya": 283.1444396972656
+   },
+   "oracle": "kashiwa",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 9.1234769821167,
+   "max_lat_oracle": 5.199690341949463,
+   "max_lat_static_unagoya": 5.275419235229492
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 0,
+   "rewards": {
+    "hongo": -88.67129516601562,
+    "kashiwa": 52.12047576904297,
+    "shalun": -6.259092330932617,
+    "unagoya": 15.169261932373047
+   },
+   "oracle": "unagoya",
+   "picked_reward": "kashiwa",
+   "max_lat_under_picked": 105.60901641845703,
+   "max_lat_oracle": 98.83120727539062,
+   "max_lat_static_unagoya": 98.83120727539062
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 1,
+   "rewards": {
+    "hongo": 264.93841552734375,
+    "kashiwa": 290.77532958984375,
+    "shalun": 312.3999938964844,
+    "unagoya": 283.43072509765625
+   },
+   "oracle": "hongo",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 13.782276153564453,
+   "max_lat_oracle": 4.362030506134033,
+   "max_lat_static_unagoya": 4.461615562438965
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 2,
+   "rewards": {
+    "hongo": 272.7852478027344,
+    "kashiwa": 284.3343200683594,
+    "shalun": 313.62139892578125,
+    "unagoya": 275.7380065917969
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 56.673980712890625,
+   "max_lat_oracle": 30.712106704711914,
+   "max_lat_static_unagoya": 30.712106704711914
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 3,
+   "rewards": {
+    "hongo": 105.49974060058594,
+    "kashiwa": 105.10125732421875,
+    "shalun": 130.08346557617188,
+    "unagoya": 100.45067596435547
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 66.29805755615234,
+   "max_lat_oracle": 45.55173873901367,
+   "max_lat_static_unagoya": 45.55173873901367
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 4,
+   "rewards": {
+    "hongo": 130.19847106933594,
+    "kashiwa": 135.5829620361328,
+    "shalun": 162.82382202148438,
+    "unagoya": 131.70431518554688
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 14.217802047729492,
+   "max_lat_oracle": 4.265847682952881,
+   "max_lat_static_unagoya": 4.265847682952881
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 5,
+   "rewards": {
+    "hongo": 222.5374298095703,
+    "kashiwa": 224.72763061523438,
+    "shalun": 266.2219543457031,
+    "unagoya": 218.79458618164062
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 14.497283935546875,
+   "max_lat_oracle": 4.105797290802002,
+   "max_lat_static_unagoya": 4.105797290802002
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 6,
+   "rewards": {
+    "hongo": 137.2655487060547,
+    "kashiwa": 147.4294891357422,
+    "shalun": 170.6624298095703,
+    "unagoya": 147.19480895996094
+   },
+   "oracle": "unagoya",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 24.836708068847656,
+   "max_lat_oracle": 8.795324325561523,
+   "max_lat_static_unagoya": 8.795324325561523
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 7,
+   "rewards": {
+    "hongo": 224.8332061767578,
+    "kashiwa": 183.87228393554688,
+    "shalun": 185.29859924316406,
+    "unagoya": 191.93128967285156
+   },
+   "oracle": "kashiwa",
+   "picked_reward": "hongo",
+   "max_lat_under_picked": 131.54818725585938,
+   "max_lat_oracle": 51.59336471557617,
+   "max_lat_static_unagoya": 61.949928283691406
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 8,
+   "rewards": {
+    "hongo": 141.53298950195312,
+    "kashiwa": 148.5833740234375,
+    "shalun": 181.95492553710938,
+    "unagoya": 148.25230407714844
+   },
+   "oracle": "shalun",
+   "picked_reward": "shalun",
+   "max_lat_under_picked": 3.0980894565582275,
+   "max_lat_oracle": 3.0980894565582275,
+   "max_lat_static_unagoya": 9.530920028686523
+  },
+  {
+   "map": "morikoro",
+   "ego_idx": 9,
+   "rewards": {
+    "hongo": 80.0716781616211,
+    "kashiwa": -14.992208480834961,
+    "shalun": -18.442001342773438,
+    "unagoya": -16.006553649902344
+   },
+   "oracle": "unagoya",
+   "picked_reward": "hongo",
+   "max_lat_under_picked": 138.56874084472656,
+   "max_lat_oracle": 50.637901306152344,
+   "max_lat_static_unagoya": 50.637901306152344
+  }
+ ]
+}

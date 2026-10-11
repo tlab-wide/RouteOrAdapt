@@ -1,0 +1,434 @@
+{
+ "description": "Rebuttal E1/E2: matched-target-data baselines vs joint replay.\n\nModes (all: same 20 Aichi train scenes, 500 opt steps, GRAD_ACCUM 4, LR 5e-5,\nsame LoRA ranks, disjoint seed-7 eval pool — identical to stage24_v2 protocol):\n\n  target_only     E1: fine-tune shared+expert LoRA on the 20 target scenes ONLY\n                      (no prod replay).  Answers Nkac Q1 / 4EkA W3.\n  ft_best_expert  E2: fine-tune the static-rule expert (unagoya/ODD-D path:\n                      shared + unagoya expert LoRA) on the 20 target scenes;\n                      train AND eval with the unagoya expert active.\n                      Answers Nkac Q4 / 4EkA W3.\n  joint_replay    seed-matched rerun of stage24_v2 (20 aichi : 200 prod).\n\nPer-scene eval rows are saved (fills the Pool-B per-scene gap for paired tests).\n\nUsage: python3 rebuttal_e12_matched_baselines.py --mode target_only --seed 1\n",
+ "mode": "ft_best_expert_sp80",
+ "seed": 48,
+ "n_opt_steps": 500,
+ "lr": 5e-05,
+ "grad_accum": 4,
+ "n_train_params": 235104,
+ "eval_expert": "unagoya",
+ "mix": "20 aichi : 0 prod",
+ "pre_fleet": 18.962859114011128,
+ "post_fleet": 3.4592617750167847,
+ "pre_aichi": {
+  "aichi_hub_v2": {
+   "mean": 4.514991044998169,
+   "std": 0.7910037214677802,
+   "n": 4
+  },
+  "ishio_dai": {
+   "mean": 5.287998533248901,
+   "std": 2.426728392624584,
+   "n": 10
+  },
+  "morikoro": {
+   "mean": 38.41686692237854,
+   "std": 42.7642923087316,
+   "n": 10
+  }
+ },
+ "post_aichi": {
+  "aichi_hub_v2": {
+   "mean": 3.5207793712615967,
+   "std": 0.06562385508021241,
+   "n": 4
+  },
+  "ishio_dai": {
+   "mean": 3.460139799118042,
+   "std": 0.6048002858482731,
+   "n": 10
+  },
+  "morikoro": {
+   "mean": 3.4337767124176026,
+   "std": 0.17735537911059263,
+   "n": 10
+  }
+ },
+ "pre_prod": {
+  "hongo": {
+   "n": 10,
+   "progress_mean": 179.33851470947266,
+   "route_dev_mean": 10.438695001602174
+  },
+  "kashiwa": {
+   "n": 10,
+   "progress_mean": 190.8059295654297,
+   "route_dev_mean": 14.082366037368775
+  },
+  "shalun": {
+   "n": 10,
+   "progress_mean": 217.24073638916016,
+   "route_dev_mean": 0.0
+  },
+  "unagoya": {
+   "n": 10,
+   "progress_mean": 186.18948822021486,
+   "route_dev_mean": 16.102416706085204
+  }
+ },
+ "post_prod": {
+  "hongo": {
+   "n": 10,
+   "progress_mean": 200.1541946411133,
+   "route_dev_mean": 15.505661964416504
+  },
+  "kashiwa": {
+   "n": 10,
+   "progress_mean": 212.98548126220703,
+   "route_dev_mean": 20.560939884185792
+  },
+  "shalun": {
+   "n": 10,
+   "progress_mean": 218.9954818725586,
+   "route_dev_mean": 0.0
+  },
+  "unagoya": {
+   "n": 10,
+   "progress_mean": 207.27032928466798,
+   "route_dev_mean": 27.313946437835693
+  }
+ },
+ "forgetting_sum_route_dev_m": 22.757070541381836,
+ "forgetting_sum_progress_m": 65.83081817626953,
+ "pre_rows": [
+  {
+   "map": "aichi_hub_v2",
+   "lanelet_idx": 0,
+   "max_lat": 5.693674087524414,
+   "fwd_progress": 160.70993041992188,
+   "finite": true
+  },
+  {
+   "map": "aichi_hub_v2",
+   "lanelet_idx": 1,
+   "max_lat": 4.0153985023498535,
+   "fwd_progress": 158.3297882080078,
+   "finite": true
+  },
+  {
+   "map": "aichi_hub_v2",
+   "lanelet_idx": 2,
+   "max_lat": 4.237058639526367,
+   "fwd_progress": 163.58250427246094,
+   "finite": true
+  },
+  {
+   "map": "aichi_hub_v2",
+   "lanelet_idx": 3,
+   "max_lat": 4.113832950592041,
+   "fwd_progress": 157.8777618408203,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 14,
+   "max_lat": 4.518223285675049,
+   "fwd_progress": 170.84811401367188,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 16,
+   "max_lat": 4.401744365692139,
+   "fwd_progress": 164.741943359375,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 18,
+   "max_lat": 4.384701251983643,
+   "fwd_progress": 164.94378662109375,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 25,
+   "max_lat": 4.4942240715026855,
+   "fwd_progress": 169.25584411621094,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 28,
+   "max_lat": 4.259100437164307,
+   "fwd_progress": 171.3551025390625,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 36,
+   "max_lat": 5.1294097900390625,
+   "fwd_progress": 170.7310791015625,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 38,
+   "max_lat": 4.9389166831970215,
+   "fwd_progress": 170.4849090576172,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 41,
+   "max_lat": 4.406730651855469,
+   "fwd_progress": 164.83612060546875,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 46,
+   "max_lat": 12.144798278808594,
+   "fwd_progress": 170.3554229736328,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 64,
+   "max_lat": 4.202136516571045,
+   "fwd_progress": 172.38221740722656,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 29,
+   "max_lat": 14.05368709564209,
+   "fwd_progress": 167.619873046875,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 65,
+   "max_lat": 4.11628532409668,
+   "fwd_progress": 168.23745727539062,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 74,
+   "max_lat": 6.606373310089111,
+   "fwd_progress": 168.488525390625,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 90,
+   "max_lat": 98.80361938476562,
+   "fwd_progress": 127.44044494628906,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 114,
+   "max_lat": 4.8688859939575195,
+   "fwd_progress": 169.76136779785156,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 117,
+   "max_lat": 114.64671325683594,
+   "fwd_progress": 121.68930053710938,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 131,
+   "max_lat": 4.0467529296875,
+   "fwd_progress": 166.8690948486328,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 154,
+   "max_lat": 16.11750030517578,
+   "fwd_progress": 168.54095458984375,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 172,
+   "max_lat": 75.35693359375,
+   "fwd_progress": 142.66697692871094,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 189,
+   "max_lat": 45.551918029785156,
+   "fwd_progress": 156.52194213867188,
+   "finite": true
+  }
+ ],
+ "post_rows": [
+  {
+   "map": "aichi_hub_v2",
+   "lanelet_idx": 0,
+   "max_lat": 3.4462716579437256,
+   "fwd_progress": 205.63287353515625,
+   "finite": true
+  },
+  {
+   "map": "aichi_hub_v2",
+   "lanelet_idx": 1,
+   "max_lat": 3.492879867553711,
+   "fwd_progress": 207.1666259765625,
+   "finite": true
+  },
+  {
+   "map": "aichi_hub_v2",
+   "lanelet_idx": 2,
+   "max_lat": 3.5460400581359863,
+   "fwd_progress": 205.17782592773438,
+   "finite": true
+  },
+  {
+   "map": "aichi_hub_v2",
+   "lanelet_idx": 3,
+   "max_lat": 3.597925901412964,
+   "fwd_progress": 206.41876220703125,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 14,
+   "max_lat": 3.203800916671753,
+   "fwd_progress": 206.4520263671875,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 16,
+   "max_lat": 3.365219831466675,
+   "fwd_progress": 206.55870056152344,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 18,
+   "max_lat": 3.3529458045959473,
+   "fwd_progress": 207.18521118164062,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 25,
+   "max_lat": 3.164329767227173,
+   "fwd_progress": 206.32862854003906,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 28,
+   "max_lat": 3.257554769515991,
+   "fwd_progress": 207.19802856445312,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 36,
+   "max_lat": 3.215808629989624,
+   "fwd_progress": 207.0658721923828,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 38,
+   "max_lat": 3.1341185569763184,
+   "fwd_progress": 206.92481994628906,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 41,
+   "max_lat": 3.3301279544830322,
+   "fwd_progress": 206.6527557373047,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 46,
+   "max_lat": 5.1608781814575195,
+   "fwd_progress": 206.07479858398438,
+   "finite": true
+  },
+  {
+   "map": "ishio_dai",
+   "lanelet_idx": 64,
+   "max_lat": 3.4166135787963867,
+   "fwd_progress": 207.15625,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 29,
+   "max_lat": 3.446636438369751,
+   "fwd_progress": 205.57553100585938,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 65,
+   "max_lat": 3.420060873031616,
+   "fwd_progress": 206.76837158203125,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 74,
+   "max_lat": 3.0437989234924316,
+   "fwd_progress": 205.45619201660156,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 90,
+   "max_lat": 3.7531518936157227,
+   "fwd_progress": 205.7723388671875,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 114,
+   "max_lat": 3.4778072834014893,
+   "fwd_progress": 205.2257537841797,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 117,
+   "max_lat": 3.4523611068725586,
+   "fwd_progress": 206.4386444091797,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 131,
+   "max_lat": 3.388125419616699,
+   "fwd_progress": 206.74411010742188,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 154,
+   "max_lat": 3.3957979679107666,
+   "fwd_progress": 206.97360229492188,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 172,
+   "max_lat": 3.3836510181427,
+   "fwd_progress": 206.01504516601562,
+   "finite": true
+  },
+  {
+   "map": "morikoro",
+   "lanelet_idx": 189,
+   "max_lat": 3.57637619972229,
+   "fwd_progress": 206.57081604003906,
+   "finite": true
+  }
+ ],
+ "train_minutes": 5.10477104584376
+}

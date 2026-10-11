@@ -1,0 +1,166 @@
+{
+ "description": "nuPlan LOO Singapore multi-seed (Q5)",
+ "train_cities": [
+  "us-ma-boston",
+  "us-pa-pittsburgh-hazelwood",
+  "us-nv-las-vegas-strip"
+ ],
+ "holdout_city": "sg-one-north",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "eval_shuffle_seed": 999,
+ "eval_per_city": 50,
+ "base_eval": {
+  "us-ma-boston": {
+   "n": 50,
+   "mean": 2.1896856752038003,
+   "std": 6.788602898854547
+  },
+  "us-pa-pittsburgh-hazelwood": {
+   "n": 50,
+   "mean": 4.439972251234576,
+   "std": 8.819668663407684
+  },
+  "us-nv-las-vegas-strip": {
+   "n": 50,
+   "mean": 1.857391428127885,
+   "std": 4.128725098327271
+  },
+  "sg-one-north": {
+   "n": 50,
+   "mean": 8.451491489838808,
+   "std": 10.02529169542164
+  }
+ },
+ "per_seed": [
+  {
+   "seed": 42,
+   "training_final_loss": 3.3206343713402746,
+   "n_skips": 0,
+   "eval": {
+    "us-ma-boston": {
+     "n": 50,
+     "mean": 2.0069218027591704,
+     "std": 4.801203095797057
+    },
+    "us-pa-pittsburgh-hazelwood": {
+     "n": 50,
+     "mean": 3.9909397077560427,
+     "std": 6.778997526185494
+    },
+    "us-nv-las-vegas-strip": {
+     "n": 50,
+     "mean": 1.7337964290380479,
+     "std": 2.8757900260770684
+    },
+    "sg-one-north": {
+     "n": 50,
+     "mean": 6.468471571803093,
+     "std": 7.5093307522681165
+    }
+   },
+   "ckpt": "nuplan_seed42_3city_lora.pth"
+  },
+  {
+   "seed": 43,
+   "training_final_loss": 3.3688720804452896,
+   "n_skips": 0,
+   "eval": {
+    "us-ma-boston": {
+     "n": 50,
+     "mean": 1.5667380732297898,
+     "std": 3.8527520518045044
+    },
+    "us-pa-pittsburgh-hazelwood": {
+     "n": 50,
+     "mean": 3.256271617412567,
+     "std": 6.146746527468683
+    },
+    "us-nv-las-vegas-strip": {
+     "n": 50,
+     "mean": 1.2496467173099517,
+     "std": 2.251134096571511
+    },
+    "sg-one-north": {
+     "n": 50,
+     "mean": 4.961403984427452,
+     "std": 6.011689635246551
+    }
+   },
+   "ckpt": "nuplan_seed43_3city_lora.pth"
+  },
+  {
+   "seed": 44,
+   "training_final_loss": 3.2362389898300172,
+   "n_skips": 0,
+   "eval": {
+    "us-ma-boston": {
+     "n": 50,
+     "mean": 1.5644276663661003,
+     "std": 4.442627613468524
+    },
+    "us-pa-pittsburgh-hazelwood": {
+     "n": 50,
+     "mean": 3.215646567642689,
+     "std": 6.386867502457322
+    },
+    "us-nv-las-vegas-strip": {
+     "n": 50,
+     "mean": 1.2727367785573005,
+     "std": 2.470386389199877
+    },
+    "sg-one-north": {
+     "n": 50,
+     "mean": 5.372368404269219,
+     "std": 6.639727947634238
+    }
+   },
+   "ckpt": "nuplan_seed44_3city_lora.pth"
+  }
+ ],
+ "cross_seed": {
+  "us-ma-boston": {
+   "seed_mean": 1.712695847451687,
+   "seed_std": 0.2548097703727625,
+   "n_seeds": 3,
+   "per_seed_means": [
+    2.0069218027591704,
+    1.5667380732297898,
+    1.5644276663661003
+   ]
+  },
+  "us-pa-pittsburgh-hazelwood": {
+   "seed_mean": 3.4876192976037665,
+   "seed_std": 0.43636128967186477,
+   "n_seeds": 3,
+   "per_seed_means": [
+    3.9909397077560427,
+    3.256271617412567,
+    3.215646567642689
+   ]
+  },
+  "us-nv-las-vegas-strip": {
+   "seed_mean": 1.4187266416351,
+   "seed_std": 0.2731025740133286,
+   "n_seeds": 3,
+   "per_seed_means": [
+    1.7337964290380479,
+    1.2496467173099517,
+    1.2727367785573005
+   ]
+  },
+  "sg-one-north": {
+   "seed_mean": 5.600747986833255,
+   "seed_std": 0.7790578306702597,
+   "n_seeds": 3,
+   "per_seed_means": [
+    6.468471571803093,
+    4.961403984427452,
+    5.372368404269219
+   ]
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "description": "E10 (rebuttal, feedback-v2 point 1): per-scene paired test of joint-replay\nsource-domain regression. eval_on_prod uses the LAST n_per_map=10 paths per ODD\n(deterministic), so pre/post route-dev pairs per path are valid. 40 scenes x 3\nJR seeds (frng checkpoints) = 120 paired deltas -> Wilcoxon with actual power,\nreplacing the underpowered per-ODD n=4 phrasing.",
+ "n_pairs": 320,
+ "mean_delta": 0.2199779137969017,
+ "median_delta": 0.0,
+ "n_nonzero": 240,
+ "wilcoxon_p": 0.0014577087359277311,
+ "per_seed": {
+  "42": {
+   "n": 40,
+   "mean": 0.18799641132354736,
+   "n_worse": 21,
+   "n_better": 9
+  },
+  "43": {
+   "n": 40,
+   "mean": 0.8694203734397888,
+   "n_worse": 24,
+   "n_better": 6
+  },
+  "44": {
+   "n": 40,
+   "mean": -0.023190784454345702,
+   "n_worse": 18,
+   "n_better": 12
+  },
+  "45": {
+   "n": 40,
+   "mean": 0.28875300884246824,
+   "n_worse": 20,
+   "n_better": 10
+  },
+  "46": {
+   "n": 40,
+   "mean": -0.16722505092620848,
+   "n_worse": 15,
+   "n_better": 15
+  },
+  "47": {
+   "n": 40,
+   "mean": -0.06991336941719055,
+   "n_worse": 13,
+   "n_better": 17
+  },
+  "48": {
+   "n": 40,
+   "mean": 0.16332808136940002,
+   "n_worse": 17,
+   "n_better": 13
+  },
+  "49": {
+   "n": 40,
+   "mean": 0.5106546401977539,
+   "n_worse": 24,
+   "n_better": 6
+  }
+ }
+}
