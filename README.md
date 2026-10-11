@@ -107,6 +107,7 @@ The result files use internal keys. The paper uses the names on the left.
 | Sec. 4: paired tests against the static default | `results/routing_pool/paired_tests.json` |
 | Sec. 4: oracle headroom (24 scenes, 104 scenes, per-seed slices) | `per_expert_rollouts.json`, `results/expanded_pool_104/`, `results/matched_baselines/oracle_per_seed_slice.json` |
 | Sec. 4: leave-one-out classifiers | `results/routing_pool/loocv_*.json`, `results/expanded_pool_104/` |
+| Sec. 4 and appendix: exchangeability test of the conformal residuals | `results/routing_pool/conformal_exchangeability.json` |
 | Sec. 5.1: vMF mixture | `results/routing_pool/vmf_mixture.json` |
 | Sec. 5.2: shared-adapter repair | `results/shared_adapter_repair/` |
 | Table 3: matched-target-data baselines, eight seeds | `results/matched_baselines/runs/` (one file per method and seed) |
